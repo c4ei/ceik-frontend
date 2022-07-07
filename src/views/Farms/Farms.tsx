@@ -131,9 +131,7 @@ export const getDisplayApr = (cakeRewardsApr?: number, lpRewardsApr?: number) =>
 const Farms: React.FC = ({ children }) => {
   const { pathname } = useRouter()
   const { t } = useTranslation()
-  const {
-    data: { poolLength, regularCakePerBlock },
-  } = useMasterChefInfo()
+  const { data: { poolLength, regularCakePerBlock } = {} } = useMasterChefInfo()
   const { data: farmsLP, userDataLoaded } = useFarms()
   const cakePrice = usePriceCakeBusd()
   const [query, setQuery] = useState('')
