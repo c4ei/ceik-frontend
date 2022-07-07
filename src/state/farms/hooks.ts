@@ -8,6 +8,8 @@ import useSWRImmutable from 'swr/immutable'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { useAppDispatch } from 'state'
+import { useMasterChefFarmsApi } from 'hooks/useMasterChef'
+import { FetchStatus } from 'config/constants/types'
 import { fetchFarmsPublicDataAsync, fetchFarmUserDataAsync } from '.'
 import { DeserializedFarm, DeserializedFarmsState, DeserializedFarmUserData, State } from '../types'
 import {
@@ -24,14 +26,18 @@ export const usePollFarmsWithUserData = () => {
   const dispatch = useAppDispatch()
   const { account } = useWeb3React()
 
+  const { status } = useMasterChefFarmsApi()
+
   useSWRImmutable(
-    ['publicFarmData'],
+    ['publicFarmDataAction', status],
     () => {
-      const pids = farmsConfig.map((farmToFetch) => farmToFetch.pid)
-      dispatch(fetchFarmsPublicDataAsync(pids))
+      if (status === FetchStatus.Failed) {
+        const pids = farmsConfig.map((farmToFetch) => farmToFetch.pid)
+        dispatch(fetchFarmsPublicDataAsync(pids))
+      }
     },
     {
-      refreshInterval: SLOW_INTERVAL,
+      refreshInterval: 60 * 1000,
     },
   )
 

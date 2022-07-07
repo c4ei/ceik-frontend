@@ -4,7 +4,7 @@ import type {
   UnknownAsyncThunkRejectedAction,
   // eslint-disable-next-line import/no-unresolved
 } from '@reduxjs/toolkit/dist/matchers'
-import { createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit'
+import { createAsyncThunk, createSlice, isAnyOf, createAction } from '@reduxjs/toolkit'
 import stringify from 'fast-json-stable-stringify'
 import farmsConfig from 'config/constants/farms'
 import multicall from 'utils/multicall'
@@ -135,6 +135,8 @@ export const fetchFarmUserDataAsync = createAsyncThunk<
   },
 )
 
+export const updateFarmsPublicData = createAction<Record<string, SerializedFarm>>('farms/updateFarmsPublicData')
+
 type UnknownAsyncThunkFulfilledOrPendingAction =
   | UnknownAsyncThunkFulfilledAction
   | UnknownAsyncThunkPendingAction
@@ -156,6 +158,12 @@ export const farmsSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
+    builder.addCase(updateFarmsPublicData, (state, action) => {
+      state.data = state.data.map((farm) => {
+        const liveFarmData = action.payload[farm.pid]
+        return { ...liveFarmData, ...farm }
+      })
+    })
     builder.addCase(resetUserState, (state) => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       state.data = state.data.map((farm) => {
