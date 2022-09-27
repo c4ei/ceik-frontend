@@ -17,9 +17,17 @@ pancakeswap.finance --> ceik.c4ei.net
 /packages/swap-sdk/src/constants.ts
 FACTORY_ADDRESS,INIT_CODE_HASH
 
-계속하려면 네트워크를 전환하세요.
+---------------------------------------------------------------------
+/src/config/constants/contracts.ts
+/packages/uikit/src/components/Image/tokens.ts
+/packages/farms/constants/21004.ts
+---------------------------------------------------------------------
+/packages/swap-sdk/src/constants.ts - factory Address
+/src/config/constants/exchange.ts   - router Address
 
 ########### sol #############
 A_0_Multicall3.sol : multicallAddresses
     0xca11bde05977b3631167028862be2a173976ca11->0x423A3f11Cfb63E2C29E42E9A7472927F04875fbF (2022-09-27)
 
+
+CAKE : 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69
