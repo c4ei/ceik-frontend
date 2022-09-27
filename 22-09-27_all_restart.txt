@@ -31,3 +31,9 @@ A_0_Multicall3.sol : multicallAddresses
 
 
 CAKE : 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69
+
+packages/swap-sdk/src/entities/token.ts (57:14)
+
+/src/utils/wagmi.ts
+/src/components/NetworkModal/NetworkModal.tsx
+/src/config/constants/supportChains.ts

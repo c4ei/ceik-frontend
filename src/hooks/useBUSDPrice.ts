@@ -156,7 +156,9 @@ export const useCakeBusdPrice = ({ forceMainnet } = { forceMainnet: false }): Pr
   const { chainId } = useActiveWeb3React()
   const isTestnet = !forceMainnet && isChainTestnet(chainId)
   // Return bsc testnet cake if chain is testnet
-  const cake: Token = isTestnet ? CAKE[ChainId.BSC_TESTNET] : CAKE[ChainId.BSC]
+  // const cake: Token = isTestnet ? CAKE[ChainId.BSC_TESTNET] : CAKE[ChainId.BSC]
+  //아래 C4EI 로 하면 가격 안나옴 당연히 정보가 없어서 ???
+  const cake: Token = isTestnet ? CAKE[ChainId.BSC_TESTNET] : chainId==21004? CAKE[ChainId.C4EI] : CAKE[ChainId.BSC]
   return usePriceByPairs(BUSD[cake.chainId], cake)
 }
 
@@ -165,6 +167,7 @@ export const useBNBBusdPrice = ({ forceMainnet } = { forceMainnet: false }): Pri
   const { chainId } = useActiveWeb3React()
   const isTestnet = !forceMainnet && isChainTestnet(chainId)
   // Return bsc testnet wbnb if chain is testnet
-  const wbnb: Token = isTestnet ? WBNB[ChainId.BSC_TESTNET] : WBNB[ChainId.BSC]
+  // const wbnb: Token = isTestnet ? WBNB[ChainId.BSC_TESTNET] : WBNB[ChainId.BSC]
+  const wbnb: Token = isTestnet ? WBNB[ChainId.BSC_TESTNET] : chainId==21004? WBNB[ChainId.C4EI] : WBNB[ChainId.BSC]
   return usePriceByPairs(BUSD[wbnb.chainId], wbnb)
 }
