@@ -6,7 +6,7 @@ export const CAKE_MAINNET = new Token(
   18,
   'CAKE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://ceik.c4ei.net/',
 )
 
 export const CAKE_TESTNET = new Token(
@@ -15,7 +15,7 @@ export const CAKE_TESTNET = new Token(
   18,
   'CAKE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://ceik.c4ei.net/',
 )
 
 export const USDC_BSC = new Token(
@@ -80,6 +80,14 @@ export const BUSD_BSC = new Token(
   'Binance USD',
   'https://www.paxos.com/busd/',
 )
+export const BUSD_C4EI = new Token(
+  ChainId.C4EI,
+  '0xBa9303709c2Ad10b62a598e18e15b1E42921edea',
+  18,
+  'BUSD',
+  'C4EI USD',// 'Binance USD',
+  'https://www.paxos.com/busd/',
+)
 
 export const BUSD_TESTNET = new Token(
   ChainId.BSC_TESTNET,
@@ -123,6 +131,7 @@ export const BUSD: Record<ChainId, Token> = {
   [ChainId.GOERLI]: BUSD_GOERLI,
   [ChainId.BSC]: BUSD_BSC,
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
+  [ChainId.C4EI]: BUSD_BSC,
 }
 
 export const CAKE = {

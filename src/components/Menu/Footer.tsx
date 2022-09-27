@@ -49,7 +49,7 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
+          <ButtonMenuItem as="a" href="https://v1exchange.ceik.c4ei.net/#/">
             {t('V1 (old)')}
           </ButtonMenuItem>
         </ButtonMenu>

@@ -16,7 +16,7 @@ import Dots from '../Loader/Dots'
 export function UnsupportedNetworkModal() {
   const { switchNetworkAsync, isLoading, canSwitch } = useSwitchNetwork()
   const { chains } = useNetwork()
-  const chainId = useLocalNetworkChain() || ChainId.BSC
+  const chainId = useLocalNetworkChain() || ChainId.BSC || ChainId.C4EI
   const { isConnected } = useAccount()
   const { logout } = useAuth()
   const { t } = useTranslation()

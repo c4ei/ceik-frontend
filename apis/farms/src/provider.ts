@@ -1,5 +1,13 @@
 import { StaticJsonRpcProvider } from '@ethersproject/providers'
 
+export const c4eiProvider = new StaticJsonRpcProvider(
+  {
+    url: 'https://rpc.c4ei.net',
+    skipFetchSetup: true,
+  },
+  21004,
+)
+
 export const bscProvider = new StaticJsonRpcProvider(
   {
     url: 'https://nodes.pancakeswap.com',

@@ -6,17 +6,20 @@ import farm1 from '../constants/1'
 import farm5 from '../constants/5'
 import farm97 from '../constants/97'
 import farm56 from '../constants/56'
+import farm21004 from '../constants/21004'
 
 import lpHelpers1 from '../constants/priceHelperLps/1'
 import lpHelpers5 from '../constants/priceHelperLps/5'
 import lpHelpers97 from '../constants/priceHelperLps/97'
 import lpHelpers56 from '../constants/priceHelperLps/56'
+import lpHelpers21004 from '../constants/priceHelperLps/21004'
 
 const chains = [
   [1, farm1, lpHelpers1],
   [5, farm5, lpHelpers5],
   [56, farm56, lpHelpers56],
   [97, farm97, lpHelpers97],
+  [21004, farm21004, lpHelpers21004],
 ]
 
 export const saveList = async () => {

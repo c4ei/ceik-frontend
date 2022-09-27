@@ -1,5 +1,5 @@
 import { BinanceWalletConnector } from '@pancakeswap/wagmi/connectors/binanceWallet'
-import { bsc, bscTest, goerli, rinkeby } from '@pancakeswap/wagmi/chains'
+import { bsc, bscTest, goerli, rinkeby, c4ei } from '@pancakeswap/wagmi/chains'
 import { configureChains, createClient } from 'wagmi'
 import memoize from 'lodash/memoize'
 import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
@@ -16,6 +16,7 @@ const CHAINS = [
   bscTest,
   rinkeby,
   goerli,
+  c4ei,
 ]
 
 const getNodeRealUrl = (networkName: string) => {
@@ -36,6 +37,9 @@ const getNodeRealUrl = (networkName: string) => {
       if (process.env.NEXT_PUBLIC_NODE_REAL_API_GOERLI) {
         host = `eth-goerli.nodereal.io/v1/${process.env.NEXT_PUBLIC_NODE_REAL_API_GOERLI}`
       }
+      break
+    case 'c4ei':
+        host = `rpc.c4ei.net`
       break
     default:
       host = null

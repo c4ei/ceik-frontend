@@ -1,12 +1,15 @@
 import BigNumber from 'bignumber.js'
 import { BLOCKS_PER_YEAR } from 'config'
 import lpAprs56 from 'config/constants/lpAprs/56.json'
+import lpAprs21004 from 'config/constants/lpAprs/21004.json'
 
 const getLpApr = (chainId: number) => {
   switch (chainId) {
     case 56:
       return lpAprs56
-    default:
+    case 21004:
+      return lpAprs21004
+      default:
       return {}
   }
 }

@@ -68,7 +68,7 @@ export const fantomTestnet: Chain = {
 }
 
 const bscExplorer = { name: 'BscScan', url: 'https://bscscan.com' }
-
+const c4eiExplorer = { name: 'C4EIScan', url: 'https://exp.c4ei.net' }
 export const bsc: Chain = {
   id: 56,
   name: 'BNB Smart Chain',
@@ -113,6 +113,60 @@ export const bscTest: Chain = {
     blockCreated: 17422483,
   },
   testnet: true,
+}
+
+export const c4ei: Chain = {
+  id: 21004,
+  name: 'C4EI Chain',
+  network: 'c4ei',
+  rpcUrls: {
+    public: 'https://rpc.c4ei.net',
+    default: 'https://rpc.c4ei.net',
+  },
+  blockExplorers: {
+    default: c4eiExplorer,
+    etherscan: c4eiExplorer,
+  },
+  nativeCurrency: {
+    name: 'C4EI Native Token',
+    symbol: 'C4EI',
+    decimals: 18,
+  },
+  multicall: {
+    address: '0x423A3f11Cfb63E2C29E42E9A7472927F04875fbF',
+    blockCreated: 625166,
+  },
+}
+// export const bsc: Chain = {
+//   id: 21004,
+//   name: 'C4EI',
+//   network: 'c4ei',
+//   nativeCurrency: { name: 'C4ei', symbol: 'C4EI', decimals: 18 },
+//   rpcUrls: {
+//     default: 'https://rpc.c4ei.net',
+//   },
+//   blockExplorers: {
+//     default: {
+//       name: 'C4EI exp',
+//       url: 'https://exp.c4ei.net',
+//     },
+//   },
+// }
+
+export const klaytn: Chain = {
+  id: 8217,
+  name: 'Klaytn',
+  network: 'klaytn',
+  nativeCurrency: { name: 'klaytn', symbol: 'KLAY', decimals: 18 },
+  rpcUrls: {
+    default: 'https://api.cypress.ozys.net:8651',
+  },
+  blockExplorers: {
+    default: {
+      name: 'scope',
+      url: 'https://scope.klaytn.com/',
+    },
+  },
 }
 
 export { rinkeby, mainnet, goerli }

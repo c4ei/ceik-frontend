@@ -76,7 +76,8 @@ export class MiniProgramConnector extends InjectedConnector {
   }
 
   async getChainId(): Promise<number> {
-    return 56
+    // return 56
+    return 21004
   }
 
   async getProvider() {
