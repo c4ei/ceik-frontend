@@ -12,13 +12,13 @@ const farms: SerializedFarmConfig[] = [
     token: c4einetTokens.syrup,
     quoteToken: c4einetTokens.wbnb,
   },
-  // {
-  //   pid: 3,
-  //   lpSymbol: 'BUSD-CAKE LP',
-  //   lpAddress: '0xb98C30fA9f5e9cf6749B7021b4DDc0DBFe73b73e',
-  //   token: c4einetTokens.busd,
-  //   quoteToken: c4einetTokens.cake,
-  // },
+  {
+    pid: 3,
+    lpSymbol: 'BUSD-CAKE LP',
+    lpAddress: '0xb98C30fA9f5e9cf6749B7021b4DDc0DBFe73b73e',
+    token: c4einetTokens.busd,
+    quoteToken: c4einetTokens.cake,
+  },
   // {
   //   pid: 4,
   //   lpSymbol: 'CAKE-BNB LP',
