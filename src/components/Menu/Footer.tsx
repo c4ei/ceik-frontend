@@ -49,11 +49,12 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://v1exchange.ceik.c4ei.net/#/">
+          {/* <ButtonMenuItem as="a" href="https://v1exchange.ceik.c4ei.net/#/">
             {t('V1 (old)')}
-          </ButtonMenuItem>
+          </ButtonMenuItem> */}
+          <ButtonMenuItem as="a" href="#"></ButtonMenuItem>
         </ButtonMenu>
-        <LinkExternal
+        {/* <LinkExternal
           id="ercBridge"
           href="https://docs.binance.org/smart-chain/guides/cross-chain.html"
           ml={[0, 0, '40px']}
@@ -61,7 +62,7 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
           mb={['8px', '8px', 0]}
         >
           {t('Convert ERC-20 to BEP-20')}
-        </LinkExternal>
+        </LinkExternal> */}
       </Flex>
       {isSide && <Flex flexGrow={1} />}
       <Flex

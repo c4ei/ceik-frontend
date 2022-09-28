@@ -1,5 +1,6 @@
-import { c4einetTokens } from '@pancakeswap/tokens'
 import { SerializedFarmConfig } from '@pancakeswap/farms'
+import { c4einetTokens } from '@pancakeswap/tokens'
+import { CAKE_BNB_LP_C4EI } from './common'
 
 const farms: SerializedFarmConfig[] = [
   /**
@@ -7,17 +8,28 @@ const farms: SerializedFarmConfig[] = [
    */
   {
     pid: 0,
+    v1pid: 0,
     lpSymbol: 'CAKE',
     lpAddress: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
     token: c4einetTokens.syrup,
     quoteToken: c4einetTokens.wbnb,
   },
   {
+    pid: 2,
+    v1pid: 251,
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddress: CAKE_BNB_LP_C4EI,
+    token: c4einetTokens.cake,
+    quoteToken: c4einetTokens.wbnb,
+    boosted: true,
+  },
+  {
     pid: 3,
-    lpSymbol: 'BUSD-CAKE LP',
-    lpAddress: '0xb98C30fA9f5e9cf6749B7021b4DDc0DBFe73b73e',
+    v1pid: 252,
+    lpSymbol: 'BUSD-BNB LP',
+    lpAddress: '0x45732739B1E47821A625aF3d8F818A1DBf6c1B65',
     token: c4einetTokens.busd,
-    quoteToken: c4einetTokens.cake,
+    quoteToken: c4einetTokens.wbnb,
   },
   // {
   //   pid: 4,

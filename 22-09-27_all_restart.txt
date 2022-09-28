@@ -37,3 +37,7 @@ packages/swap-sdk/src/entities/token.ts (57:14)
 /src/utils/wagmi.ts
 /src/components/NetworkModal/NetworkModal.tsx
 /src/config/constants/supportChains.ts
+
+/src/config/constants/lpAprs/21004.json
+팜설정 위치 /packages/farms/constants/21004.ts
+
