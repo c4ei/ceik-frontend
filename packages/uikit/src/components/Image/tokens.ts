@@ -22,36 +22,26 @@ const tokens = {
     decimals: 18,
     projectLink: "https://pancakebunny.finance/",
   },
-  alice: {
-    symbol: "ALICE",
-    address: {
-      56: "0xAC51066d7bEC65Dc4589368da368b212745d63E8",
-      97: "",
-      21004: "",
-    },
-    decimals: 6,
-    projectLink: "https://www.myneighboralice.com/",
-  },
   wbnb: {
     symbol: "wBNB",
     address: {
       56: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       97: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      21004: "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
     },
     decimals: 18,
     projectLink: "https://ceik.c4ei.net/",
   },
-  sushi: {
-    symbol: "SUSHI",
-    address: {
-      56: "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
-      97: "",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://sushi.com/",
-  },
-
+  // sushi: {
+  //   symbol: "SUSHI",
+  //   address: {
+  //     56: "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+  //     97: "",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://sushi.com/",
+  // },
   syrup: {
     symbol: "SYRUP",
     address: {
@@ -92,26 +82,26 @@ const tokens = {
     decimals: 18,
     projectLink: "https://www.centre.io/usdc",
   },
-  dai: {
-    symbol: "DAI",
-    address: {
-      56: "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
-      97: "",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://www.makerdao.com/",
-  },
-  ada: {
-    symbol: "ADA",
-    address: {
-      56: "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
-      97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://www.cardano.org/",
-  },
+  // dai: {
+  //   symbol: "DAI",
+  //   address: {
+  //     56: "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+  //     97: "",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://www.makerdao.com/",
+  // },
+  // ada: {
+  //   symbol: "ADA",
+  //   address: {
+  //     56: "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+  //     97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://www.cardano.org/",
+  // },
   usdt: {
     symbol: "USDT",
     address: {
@@ -122,46 +112,46 @@ const tokens = {
     decimals: 18,
     projectLink: "https://tether.to/",
   },
-  xrp: {
-    symbol: "XRP",
-    address: {
-      56: "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
-      97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://ripple.com/xrp/",
-  },
-  uni: {
-    symbol: "UNI",
-    address: {
-      56: "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
-      97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://uniswap.org/",
-  },
-  bake: {
-    symbol: "BAKE",
-    address: {
-      56: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
-      97: "",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://www.bakeryswap.org/",
-  },
-  burger: {
-    symbol: "BURGER",
-    address: {
-      56: "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
-      97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
-      21004: "",
-    },
-    decimals: 18,
-    projectLink: "https://burgerswap.org/",
-  },
+  // xrp: {
+  //   symbol: "XRP",
+  //   address: {
+  //     56: "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+  //     97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://ripple.com/xrp/",
+  // },
+  // uni: {
+  //   symbol: "UNI",
+  //   address: {
+  //     56: "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+  //     97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://uniswap.org/",
+  // },
+  // bake: {
+  //   symbol: "BAKE",
+  //   address: {
+  //     56: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+  //     97: "",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://www.bakeryswap.org/",
+  // },
+  // burger: {
+  //   symbol: "BURGER",
+  //   address: {
+  //     56: "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+  //     97: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+  //     21004: "",
+  //   },
+  //   decimals: 18,
+  //   projectLink: "https://burgerswap.org/",
+  // },
 };
 
 export default tokens;

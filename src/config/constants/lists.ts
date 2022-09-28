@@ -1,9 +1,10 @@
-const PANCAKE_EXTENDED = 'https://tokens.ceik.c4ei.net/pancakeswap-extended.json'
+const PANCAKE_EXTENDED = 'https://ceik.c4ei.net/pancakeswap-extended.json'
 const COINGECKO = 'https://tokens.ceik.c4ei.net/coingecko.json'
 const CMC = 'https://tokens.ceik.c4ei.net/cmc.json'
 
 // List of official tokens list
-export const OFFICIAL_LISTS = [PANCAKE_EXTENDED]
+// export const OFFICIAL_LISTS = [PANCAKE_EXTENDED]
+export const OFFICIAL_LISTS = []
 
 export const UNSUPPORTED_LIST_URLS: string[] = []
 export const WARNING_LIST_URLS: string[] = []

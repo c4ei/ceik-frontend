@@ -137,21 +137,6 @@ export const c4ei: Chain = {
     blockCreated: 625166,
   },
 }
-// export const bsc: Chain = {
-//   id: 21004,
-//   name: 'C4EI',
-//   network: 'c4ei',
-//   nativeCurrency: { name: 'C4ei', symbol: 'C4EI', decimals: 18 },
-//   rpcUrls: {
-//     default: 'https://rpc.c4ei.net',
-//   },
-//   blockExplorers: {
-//     default: {
-//       name: 'C4EI exp',
-//       url: 'https://exp.c4ei.net',
-//     },
-//   },
-// }
 
 export const klaytn: Chain = {
   id: 8217,
