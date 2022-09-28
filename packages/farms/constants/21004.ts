@@ -8,15 +8,27 @@ const farms: SerializedFarmConfig[] = [
    */
   {
     pid: 0,
-    v1pid: 0,
+    // v1pid: 0,     --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82 : CAKE
+    v1pid: 0, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69 : CAKE
     lpSymbol: 'CAKE',
     lpAddress: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
     token: c4einetTokens.syrup,
     quoteToken: c4einetTokens.wbnb,
   },
   {
+    pid: 1,
+    // pid: 3,
+    // v1pid: 252,   --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16 : BUSD-WBNB
+    v1pid: 1, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0x45732739B1E47821A625aF3d8F818A1DBf6c1B65 : BUSD-WBNB
+    lpSymbol: 'BUSD-BNB LP',
+    lpAddress: '0x45732739B1E47821A625aF3d8F818A1DBf6c1B65',
+    token: c4einetTokens.busd,
+    quoteToken: c4einetTokens.wbnb,
+  },
+  {
     pid: 2,
-    v1pid: 251,
+    // v1pid: 251,   --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x0eD7e52944161450477ee417DE9Cd3a859b14fD0 : CAKE-WBNB
+    v1pid: 2, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0 : CAKE-WBNB
     lpSymbol: 'CAKE-BNB LP',
     lpAddress: CAKE_BNB_LP_C4EI,
     token: c4einetTokens.cake,
@@ -24,16 +36,11 @@ const farms: SerializedFarmConfig[] = [
     boosted: true,
   },
   {
+    // LP가시럽인지 lp 어드레스인지 확인 필요
     pid: 3,
-    v1pid: 252,
-    lpSymbol: 'BUSD-BNB LP',
-    lpAddress: '0x45732739B1E47821A625aF3d8F818A1DBf6c1B65',
-    token: c4einetTokens.busd,
-    quoteToken: c4einetTokens.wbnb,
-  },
-  {
-    pid: 39,
-    v1pid: 389,
+    // pid: 39,
+    // v1pid: 389,   --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x804678fa97d91B974ec2af3c843270886528a9E6 : SyrupBar
+    v1pid: 3, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0xABB8a013F21a491C2e35d143A31FB708499A92c0 : SyrupBar
     lpSymbol: 'CAKE-BUSD LP',
     lpAddress: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
     boosted: true,

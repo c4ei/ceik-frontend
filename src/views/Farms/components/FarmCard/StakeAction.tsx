@@ -76,7 +76,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
       onDone()
     }
   }
-
+  // console.log(" line 79 /src/views/Farms/components/FarmCard/StakeAction.tsx pid:"+pid ) //+ " / "+JSON.stringify(StakeAction)
   const handleUnstake = async (amount: string) => {
     const receipt = await fetchWithCatchTxError(() => {
       return onUnstake(amount)
@@ -156,9 +156,10 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
 
   // TODO: Move this out to prevent unnecessary re-rendered
   if (!isApproved) {
+    // /home/dev/www/ceik.c4ei.net/src/views/Farms/components/FarmCard/StakeAction.tsx
     return (
       <Button mt="8px" width="100%" disabled={pendingTx} onClick={handleApprove}>
-        {t('Enable Contract')}
+        {t('Enable Contract') +"/pid:"+ pid}
       </Button>
     )
   }
