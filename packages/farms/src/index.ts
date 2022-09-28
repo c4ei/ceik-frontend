@@ -5,7 +5,7 @@ import { masterChefAddresses } from './const'
 import type { FarmWithPrices } from './farmPrices'
 import { farmV2FetchFarms, FetchFarmsParams, fetchMasterChefV2Data } from './fetchFarms'
 
-const supportedChainId = [ChainId.GOERLI, ChainId.BSC, ChainId.BSC_TESTNET]
+const supportedChainId = [ChainId.GOERLI, ChainId.BSC, ChainId.BSC_TESTNET, ChainId.C4EI]
 export const bCakeSupportedChainId = [ChainId.BSC, ChainId.BSC_TESTNET]
 
 export function createFarmFetcher(multicallv2: MultiCallV2) {
@@ -15,7 +15,9 @@ export function createFarmFetcher(multicallv2: MultiCallV2) {
     } & Pick<FetchFarmsParams, 'chainId' | 'farms'>,
   ) => {
     const { isTestnet, farms, chainId } = params
-    const masterChefAddress = isTestnet ? masterChefAddresses[ChainId.BSC_TESTNET] : masterChefAddresses[ChainId.BSC]
+    const masterChefAddress = chainId == 21004 ? masterChefAddresses[ChainId.C4EI] :
+      isTestnet ? masterChefAddresses[ChainId.BSC_TESTNET] : masterChefAddresses[ChainId.BSC]
+    console.log(" line 20 [/packages/farms/src/index.ts] createFarmFetcher : "+JSON.stringify(chainId) + " / masterChefAddress : "+masterChefAddress)
     const { poolLength, totalRegularAllocPoint, totalSpecialAllocPoint, cakePerBlock } = await fetchMasterChefV2Data({
       isTestnet,
       multicallv2,

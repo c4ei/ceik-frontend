@@ -7,6 +7,7 @@ import { getMasterChefAddress } from 'utils/addressHelpers'
 import { SerializedFarmConfig } from 'config/constants/types'
 import { verifyBscNetwork } from 'utils/verifyBscNetwork'
 import { getBscChainId } from 'state/farms/getBscChainId'
+import { getC4eiChainId } from 'state/farms/getC4eiChainId'
 
 export const fetchFarmUserAllowances = async (
   account: string,

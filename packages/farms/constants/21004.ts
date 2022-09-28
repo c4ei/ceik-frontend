@@ -31,6 +31,16 @@ const farms: SerializedFarmConfig[] = [
     token: c4einetTokens.busd,
     quoteToken: c4einetTokens.wbnb,
   },
+  {
+    pid: 39,
+    v1pid: 389,
+    lpSymbol: 'CAKE-BUSD LP',
+    lpAddress: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
+    boosted: true,
+    token: c4einetTokens.cake,
+    quoteToken: c4einetTokens.busd,
+  },
+
   // {
   //   pid: 4,
   //   lpSymbol: 'CAKE-BNB LP',

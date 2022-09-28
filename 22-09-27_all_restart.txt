@@ -12,7 +12,7 @@ pancakeswap.finance --> ceik.c4ei.net
     SerializedFarmConfig
 
 /packages/farms/constants/common.ts
-    export const CAKE_BNB_LP_MAINNET = '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0'
+    export const CAKE_BNB_LP_MAINNET = '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0' --> 0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0
 
 /packages/swap-sdk/src/constants.ts
 FACTORY_ADDRESS,INIT_CODE_HASH
@@ -40,4 +40,10 @@ packages/swap-sdk/src/entities/token.ts (57:14)
 
 /src/config/constants/lpAprs/21004.json
 팜설정 위치 /packages/farms/constants/21004.ts
+팜 : 0xb0f4a6c1c8fe0600cf2e6eb338d73d98e328fb9d
+팜 : BUSD-BNB LP
+https://ceik.c4ei.net/add/0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa/0xBa9303709c2Ad10b62a598e18e15b1E42921edea
+https://ceik.c4ei.net/info/pool/0x45732739B1E47821A625aF3d8F818A1DBf6c1B65
 
+풀 : https://bscscan.com/address/0x45c54210128a065de780C4B0Df3d16664f7f859e
+0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82
