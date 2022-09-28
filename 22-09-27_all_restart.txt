@@ -56,3 +56,5 @@ const coreFarmPIDs = {
   5: [1, 2],
   21004: [2, 3],
 }
+
+execution reverted: deposit CAKE by staking
