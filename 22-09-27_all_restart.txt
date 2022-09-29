@@ -65,5 +65,7 @@ const coreFarmPIDs = {
 hardcoding --> if(chainId==56){chainId=21004}
 
 
-
-execution reverted: deposit CAKE by staking
+/home/dev/www/ceik.c4ei.net/apis/farms/src/lpApr.ts
+const BLOCK_SUBGRAPH_ENDPOINT = 'https://api.thegraph.com/subgraphs/name/pancakeswap/blocks'
+const INFO_SUBGRAPH_ENDPOINT = 'https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2'
+const STABLESWAP_SUBGRAPH_ENDPOINT = 'https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-stableswap'

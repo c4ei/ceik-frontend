@@ -6,7 +6,7 @@ import { BUSD, CAKE } from '@pancakeswap/tokens'
 import { farmFetcher } from './helper'
 import { FarmKV, FarmResult } from './kv'
 import { updateLPsAPR } from './lpApr'
-import { bscProvider, bscTestnetProvider } from './provider'
+import { bscProvider, bscTestnetProvider, c4eiProvider } from './provider'
 
 const pairAbi = [
   {
@@ -45,11 +45,16 @@ const cakeBusdPairMap = {
     tokenA: CAKE[ChainId.BSC_TESTNET],
     tokenB: BUSD[ChainId.BSC_TESTNET],
   },
+  [ChainId.C4EI]: {
+    address: Pair.getAddress(CAKE[ChainId.C4EI], BUSD[ChainId.C4EI]),
+    tokenA: CAKE[ChainId.C4EI],
+    tokenB: BUSD[ChainId.C4EI],
+  },
 }
 
 const getCakePrice = async (isTestnet: boolean) => {
-  const pairConfig = cakeBusdPairMap[isTestnet ? ChainId.BSC_TESTNET : ChainId.BSC]
-  const pairContract = new Contract(pairConfig.address, pairAbi, isTestnet ? bscTestnetProvider : bscProvider)
+  const pairConfig = cakeBusdPairMap[ ChainId==21004? ChainId.C4EI : isTestnet ? ChainId.BSC_TESTNET : ChainId.BSC]
+  const pairContract = new Contract(pairConfig.address, pairAbi, ChainId==21004? c4eiProvider : isTestnet ? bscTestnetProvider : bscProvider)
   const reserves = await pairContract.getReserves()
   const { reserve0, reserve1 } = reserves
   const { tokenA, tokenB } = pairConfig
@@ -125,7 +130,7 @@ export async function handleLpAprs(chainId: number, farmsConfig?: SerializedFarm
 
 export async function saveLPsAPR(chainId: number, farmsConfig?: SerializedFarmConfig[]) {
   // TODO: add other chains
-  if (chainId === 56) {
+  if (chainId === 56||chainId === 21004) {
     let data = farmsConfig
     if (!data) {
       const value = await FarmKV.getFarms(chainId)

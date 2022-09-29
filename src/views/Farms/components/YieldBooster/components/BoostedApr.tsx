@@ -42,7 +42,7 @@ function BoostedApr(props: BoostedAprPropsType) {
     ) : (
       <>
         <Text bold color="success" {...rest} fontSize={14} display="inline-block" mr="3px">
-          {t('Up to')}
+          {t('Up to')} ^^5
         </Text>
         {`${userBalanceInFarm.eq(0) ? boostedAprFromSC : boostedAprFromFE}%`}
       </>

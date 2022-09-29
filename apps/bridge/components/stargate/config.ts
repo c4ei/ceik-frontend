@@ -1,4 +1,4 @@
-import { avalandche, fantomOpera } from '@pancakeswap/wagmi/chains'
+import { avalandche, c4ei, fantomOpera } from '@pancakeswap/wagmi/chains'
 import { arbitrum, mainnet, optimism, polygon } from 'wagmi/chains'
 
 const VERSION = '0.0.25-mainnet.19'
@@ -12,4 +12,4 @@ export const STARGATE_JS = {
   integrity: `sha384-${SHA384}`,
 }
 
-export const CHAINS_STARGATE = [mainnet, arbitrum, optimism, polygon, avalandche, fantomOpera]
+export const CHAINS_STARGATE = [mainnet, arbitrum, optimism, polygon, avalandche, fantomOpera, c4ei]

@@ -131,6 +131,7 @@ export const useFarmUser = (pid): DeserializedFarmUserData => {
 // Return the base token price for a farm, from a given pid
 export const useBusdPriceFromPid = (pid: number): BigNumber => {
   const busdPriceFromPid = useMemo(() => makeBusdPriceFromPidSelector(pid), [pid])
+  console.log(" line 134 /src/state/farms/hooks.ts price : "+JSON.stringify(busdPriceFromPid) +"/ pid:"+pid)
   return useSelector(busdPriceFromPid)
 }
 
@@ -144,5 +145,6 @@ export const useLpTokenPrice = (symbol: string) => {
  */
 export const usePriceCakeBusd = ({ forceMainnet } = { forceMainnet: false }): BigNumber => {
   const price = useCakeBusdPrice({ forceMainnet })
+  console.log(" line 148 /src/state/farms/hooks.ts price : "+JSON.stringify(price) +"/ forceMainnet:"+forceMainnet)
   return useMemo(() => (price ? new BigNumber(price.toSignificant(6)) : BIG_ZERO), [price])
 }
