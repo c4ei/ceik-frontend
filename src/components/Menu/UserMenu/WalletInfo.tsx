@@ -31,7 +31,9 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
     logout()
   }
 
-  const isBSC = native.chainId === ChainId.BSC
+  // const isBSC = native.chainId === ChainId.BSC
+  const isBSC = native.chainId === ChainId.C4EI
+  // const isBSC = chainId.id==21004 ? native.chainId === ChainId.C4EI : native.chainId === ChainId.BSC
 
   return (
     <>

@@ -60,4 +60,10 @@ const coreFarmPIDs = {
  * 3 = BUSD-BNB LP --> 21004: 1
  * /packages/farms/constants/21004.ts
 
+
+/home/dev/www/ceik.c4ei.net/packages/multicall/index.ts
+hardcoding --> if(chainId==56){chainId=21004}
+
+
+
 execution reverted: deposit CAKE by staking

@@ -14,6 +14,8 @@ export const multicallAddresses = {
 }
 
 export const getMulticallContract = (chainId: ChainId, provider) => {
+  // if(chainId==56){chainId=21004}
+  // console.log(" line 17 /packages/multicall/index.ts getMulticallContract : "+JSON.stringify(chainId) +" : if(chainId==56){chainId=21004} hardcoding ###")
   if (multicallAddresses[chainId]) {
     return new Contract(multicallAddresses[chainId], multicallAbi, provider)
   }
@@ -58,7 +60,7 @@ interface MulticallV3Params {
 
 export type MultiCallV2 = <T = any>(params: MulticallV2Params) => Promise<T>
 export type MultiCall = <T = any>(abi: any[], calls: Call[], chainId?: ChainId) => Promise<T>
-
+// console.log(" line 61 /packages/multicall/index.ts MultiCallV2 : "+JSON.stringify(MultiCall))
 export function createMulticall<TProvider>(provider: ({ chainId }: { chainId?: number | undefined }) => TProvider) {
   const multicall: MultiCall = async (abi: any[], calls: Call[], 
     chainId?: ChainId

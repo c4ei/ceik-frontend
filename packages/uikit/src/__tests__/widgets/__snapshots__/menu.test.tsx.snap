@@ -2276,75 +2276,6 @@ exports[`renders correctly 1`] = `
                     Contact
                   </a>
                 </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://medium.com/pancakeswap"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net/contact-us/telegram"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Community
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net/tokenomics/cake"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    CAKE
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <span
-                    class="c65"
-                  >
-                    —
-                  </span>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c66 c64"
-                    color="var(--colors-warning)"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://pancakeswap.creator-spring.com/"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Online Store
-                  </a>
-                </li>
               </ul>
               <ul
                 class="c61"
@@ -2369,36 +2300,6 @@ exports[`renders correctly 1`] = `
                     Customer
                   </a>
                 </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net/help/troubleshooting"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Troubleshooting
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net/get-started"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Guides
-                  </a>
-                </li>
               </ul>
               <ul
                 class="c61"
@@ -2421,66 +2322,6 @@ exports[`renders correctly 1`] = `
                     target="_blank"
                   >
                     Github
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Documentation
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Bug Bounty
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Audits
-                  </a>
-                </li>
-                <li
-                  class="c62"
-                >
-                  <a
-                    class="c63 c64"
-                    color="text"
-                    data-theme="dark"
-                    font-size="16px"
-                    href="https://docs.ceik.c4ei.net/hiring/become-a-chef"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Careers
                   </a>
                 </li>
               </ul>

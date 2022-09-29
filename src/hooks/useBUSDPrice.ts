@@ -30,7 +30,7 @@ export default function useBUSDPrice(currency?: Currency): Price<Currency, Curre
     [wnative, stable, chainId, currency, wrapped],
   )
   const [[bnbPairState, bnbPair], [busdPairState, busdPair], [busdBnbPairState, busdBnbPair]] = usePairs(tokenPairs)
-
+  console.log(" line 33 /src/hooks/useBUSDPrice.ts tokenPairs : "+JSON.stringify(tokenPairs))
   return useMemo(() => {
     if (!currency || !wrapped || !chainId || !wnative) {
       return undefined

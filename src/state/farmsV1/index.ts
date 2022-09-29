@@ -32,7 +32,7 @@ const initialState: SerializedFarmsState = {
   userDataLoaded: false,
   loadingKeys: {},
 }
-console.log(" line 35 ############# /src/state/farmsV1/index.ts ############# ChainId.C4EI ")
+// console.log(" line 35 ############# /src/state/farmsV1/index.ts ############# ChainId.C4EI ")
 // Async thunks
 export const fetchFarmsPublicDataAsync = createAsyncThunk<
   [SerializedFarm[], number],
