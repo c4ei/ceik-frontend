@@ -6,8 +6,13 @@ import { ChainId } from '@pancakeswap/sdk'
 // will return BSC or BSC Testnet chainId
 export const getBscChainId = async (chainId: number) => {
   try {
-    if (!chainId) {
-      return ChainId.BSC
+    console.log(" line 9 /src/state/farms/getBscChainId.ts chainId : "+chainId)
+    if(chainId==21004){
+      return ChainId.C4EI
+    } else {
+      if (!chainId) {
+        return ChainId.BSC
+      }
     }
 
     const calls = [
@@ -17,6 +22,7 @@ export const getBscChainId = async (chainId: number) => {
       },
     ]
     const [[bscChainId]] = await multicallv2({ abi: NoBscVaultAbi, calls, chainId })
+    console.log(" line 25 chainId : "+JSON.stringify(chainId))
     return bscChainId
   } catch (error) {
     console.error('Get BSC Chain Id Error: ', error)

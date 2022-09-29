@@ -11,7 +11,9 @@ const farms: SerializedFarmConfig[] = [
     // v1pid: 0,     --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82 : CAKE
     v1pid: 0, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69 : CAKE
     lpSymbol: 'CAKE',
-    lpAddress: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
+    // 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69 fail : execution reverted: CAKE token can't be added to farm pools
+    // lpAddress: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
+    lpAddress: '0x6d41de194CB62d3C7A2a08da3841203E65128B67',
     token: c4einetTokens.syrup,
     quoteToken: c4einetTokens.wbnb,
   },
@@ -39,8 +41,9 @@ const farms: SerializedFarmConfig[] = [
     // LP가시럽인지 lp 어드레스인지 확인 필요
     pid: 3,
     // pid: 39,
-    // v1pid: 389,   --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x804678fa97d91B974ec2af3c843270886528a9E6 : SyrupBar
-    v1pid: 3, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0xABB8a013F21a491C2e35d143A31FB708499A92c0 : SyrupBar
+    // v1pid: 389,   --> MasterChefV1(56:0x73feaa1ee314f8c655e354234017be2193c9e24e) -> 0x804678fa97d91B974ec2af3c843270886528a9E6 : Cake-BUSD
+    //취소 v1pid: 3, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0xABB8a013F21a491C2e35d143A31FB708499A92c0 : SyrupBar
+    v1pid: 4, //  --> MasterChefV1(21004:0xeAcF2EA598387684e06dfFCa52Dcb19a9B4091b9) -> 0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D : Cake-BUSD
     lpSymbol: 'CAKE-BUSD LP',
     lpAddress: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
     boosted: true,

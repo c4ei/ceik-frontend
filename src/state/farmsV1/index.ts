@@ -20,6 +20,11 @@ import {
 } from './fetchFarmUser'
 import { SerializedFarmsState, SerializedFarm } from '../types'
 import { fetchMasterChefFarmPoolLength } from './fetchMasterChefData'
+// import useActiveWeb3React from 'hooks/useActiveWeb3React' // 220929
+// export function getChainId() {
+//     const { chainId } = useActiveWeb3React()
+//     return chainId
+// }
 
 const initialState: SerializedFarmsState = {
   data: [],
@@ -27,7 +32,7 @@ const initialState: SerializedFarmsState = {
   userDataLoaded: false,
   loadingKeys: {},
 }
-
+console.log(" line 35 ############# /src/state/farmsV1/index.ts ############# ChainId.C4EI ")
 // Async thunks
 export const fetchFarmsPublicDataAsync = createAsyncThunk<
   [SerializedFarm[], number],
@@ -38,7 +43,9 @@ export const fetchFarmsPublicDataAsync = createAsyncThunk<
 >(
   'farmsV1/fetchFarmsPublicDataAsync',
   async (pids) => {
-    const farmsConfig = await getFarmConfig(ChainId.BSC)
+    // const farmsConfig = await getFarmConfig(ChainId.BSC)
+    const farmsConfig = await getFarmConfig(ChainId.C4EI)
+    // const farmsConfig = await getFarmConfig(chainId==21004?ChainId.C4EI:ChainId.BSC)
     const poolLength = await fetchMasterChefFarmPoolLength()
     const farmsToFetch = farmsConfig.filter((farmConfig) => pids.includes(farmConfig.v1pid))
     const farmsCanFetch = farmsToFetch.filter((f) => poolLength.gt(f.v1pid))
@@ -86,7 +93,9 @@ export const fetchFarmUserDataAsync = createAsyncThunk<
 >(
   'farmsV1/fetchFarmUserDataAsync',
   async ({ account, pids }) => {
-    const farmsConfig = await getFarmConfig(ChainId.BSC)
+    // const farmsConfig = await getFarmConfig(ChainId.BSC)
+    const farmsConfig = await getFarmConfig(ChainId.C4EI)
+    // const farmsConfig = await getFarmConfig(chainId==21004?ChainId.C4EI:ChainId.BSC)
     const poolLength = await fetchMasterChefFarmPoolLength()
     const farmsToFetch = farmsConfig.filter((farmConfig) => pids.includes(farmConfig.v1pid))
     const farmsCanFetch = farmsToFetch.filter((f) => poolLength.gt(f.v1pid))

@@ -48,13 +48,16 @@ https://ceik.c4ei.net/info/pool/0x45732739B1E47821A625aF3d8F818A1DBf6c1B65
 풀 : https://bscscan.com/address/0x45c54210128a065de780C4B0Df3d16664f7f859e
 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82
 
-
+#######################################################
 /home/dev/www/ceik.c4ei.net/src/state/farms/hooks.ts
 const coreFarmPIDs = {
   56: [2, 3],
   97: [4, 10],
   5: [1, 2],
-  21004: [2, 3],
+  21004: [2, 1],
 }
+ * 2 = CAKE-BNB LP --> 21004: 2
+ * 3 = BUSD-BNB LP --> 21004: 1
+ * /packages/farms/constants/21004.ts
 
 execution reverted: deposit CAKE by staking

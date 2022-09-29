@@ -27,6 +27,7 @@ export function useFarmsLength() {
   const { chainId } = useActiveWeb3React()
   return useSWRImmutable(chainId ? ['farmsLength', chainId] : null, async () => {
     const mc = getMasterchefContract(undefined, chainId)
+    console.log(" line 30 /src/state/farms/hooks.ts useFarmsLength chainId : "+chainId + " / poolLength : "+(await mc.poolLength()).toNumber())
     return (await mc.poolLength()).toNumber()
   })
 }
@@ -74,14 +75,15 @@ export const usePollFarmsWithUserData = () => {
 
 /**
  * Fetches the "core" farm data used globally
- * 2 = CAKE-BNB LP
- * 3 = BUSD-BNB LP
+ * 2 = CAKE-BNB LP --> 21004: 2
+ * 3 = BUSD-BNB LP --> 21004: 1
+ * /packages/farms/constants/21004.ts
  */
 const coreFarmPIDs = {
   56: [2, 3],
   97: [4, 10],
   5: [1, 2],
-  21004: [2, 3],
+  21004: [2, 1],
 }
 
 export const usePollCoreFarmData = () => {

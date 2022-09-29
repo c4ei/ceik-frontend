@@ -11,6 +11,7 @@ const masterChefContract = getMasterchefV1Contract()
 
 export const fetchMasterChefFarmPoolLength = async () => {
   const poolLength = await masterChefContract.poolLength()
+  // console.log(" line 14 /src/state/farmsV1/fetchMasterChefData.ts poolLength : "+poolLength)
   return poolLength
 }
 
