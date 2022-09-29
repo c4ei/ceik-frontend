@@ -136,7 +136,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
         onClick={onPresentDeposit}
         disabled={['history', 'archived'].some((item) => router.pathname.includes(item))}
       >
-        {t('Stake LP')}
+        {t('Stake LP') +"/pid:"+ pid}
       </Button>
     ) : (
       <IconButtonWrapper>
