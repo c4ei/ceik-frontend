@@ -13,9 +13,9 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'CAKE',
     // 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69 fail : execution reverted: CAKE token can't be added to farm pools
     // lpAddress: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
-    lpAddress: '0x6d41de194CB62d3C7A2a08da3841203E65128B67',
-    token: c4einetTokens.syrup,
-    quoteToken: c4einetTokens.wbnb,
+    lpAddress: '0x4Ac3ea82DA31655BbC2318f26B38C917f09BA31d',
+    token: c4einetTokens.cake,
+    quoteToken: c4einetTokens.cake,
   },
   {
     pid: 1,
