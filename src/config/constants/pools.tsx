@@ -66,8 +66,9 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: c4einetTokens.cake ,
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
-      56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
-      21004: '0xE42642bF6C73B57D614DEBa36B60475A4f63B92D', //MasterChefV2
+      // 56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
+      56: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2
+      21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
@@ -80,7 +81,8 @@ export const livePools: SerializedPoolConfig[] = [
     contractAddress: {
       97: '',
       56: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
-      21004: '',
+      21004: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
+      // 21004: '',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '0.5787',
@@ -92,7 +94,8 @@ export const livePools: SerializedPoolConfig[] = [
     contractAddress: {
       97: '',
       56: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
-      21004: '',
+      21004: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
+      // 21004: '',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '0.8787',
@@ -107,11 +110,12 @@ export const livePools: SerializedPoolConfig[] = [
 const finishedPools = [
   {
     sousId: 287,
-    stakingToken: bscTokens.cake,
-    earningToken: bscTokens.ole,
+    stakingToken: c4einetTokens.eth,
+    earningToken: c4einetTokens.wbnb,
     contractAddress: {
       56: '0xda6F750be1331963E5772BEe757062f6bddcEA4C',
       97: '',
+      21004: '0x765110c1ccc3d0Cf307EE90c7ea43b0B7F3D7B3a', //bETH-wBNB
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '2.2569',

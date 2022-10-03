@@ -69,3 +69,16 @@ hardcoding --> if(chainId==56){chainId=21004}
 const BLOCK_SUBGRAPH_ENDPOINT = 'https://api.thegraph.com/subgraphs/name/pancakeswap/blocks'
 const INFO_SUBGRAPH_ENDPOINT = 'https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2'
 const STABLESWAP_SUBGRAPH_ENDPOINT = 'https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-stableswap'
+
+
+
+########### url file
+/home/dev/www/ceik.c4ei.net/src/config/constants/contracts.ts
+/home/dev/www/ceik.c4ei.net/packages/swap-sdk/src/constants.ts
+/home/dev/www/ceik.c4ei.net/src/config/constants/exchange.ts
+/home/dev/www/ceik.c4ei.net/src/config/constants/pools.tsx
+/home/dev/www/ceik.c4ei.net/packages/tokens/src/21004.ts
+/home/dev/www/ceik.c4ei.net/packages/tokens/src/common.ts
+/home/dev/www/ceik.c4ei.net/packages/farms/src/const.ts
+/home/dev/www/ceik.c4ei.net/packages/farms/constants/priceHelperLps/21004.ts
+
