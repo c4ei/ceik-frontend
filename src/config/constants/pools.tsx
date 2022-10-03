@@ -67,23 +67,35 @@ export const livePools: SerializedPoolConfig[] = [
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
       56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
-      21004: '0xE42642bF6C73B57D614DEBa36B60475A4f63B92D',
+      21004: '0xE42642bF6C73B57D614DEBa36B60475A4f63B92D', //MasterChefV2
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
     isFinished: false,
   },
   {
-    sousId: 209,
-    stakingToken: bscTokens.cake,
-    earningToken: bscTokens.tusd,
+    sousId: 1,
+    stakingToken: c4einetTokens.cake,
+    earningToken: c4einetTokens.wbnb,
     contractAddress: {
       97: '',
-      56: '0xb6e510ae2da1ab4e350f837c70823ab75091780e',
+      56: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
       21004: '',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '0.5787',
+  },  
+  {
+    sousId: 2,
+    stakingToken: c4einetTokens.cake,
+    earningToken: c4einetTokens.busd,
+    contractAddress: {
+      97: '',
+      56: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
+      21004: '',
+    },
+    poolCategory: PoolCategory.CORE,
+    tokenPerBlock: '0.8787',
   },  
 ].map((p) => ({
   ...p,

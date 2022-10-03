@@ -68,7 +68,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="24px" mt="12px">
         <Flex alignItems="center">
-          {!isBSC && <ChainLogo chainId={56} />}
+          {!isBSC && <ChainLogo chainId={native.chainId} />}
           <Text ml={isBSC ? 0 : '8px'} color="textSubtle">
             {t('CAKE Balance')}
           </Text>
