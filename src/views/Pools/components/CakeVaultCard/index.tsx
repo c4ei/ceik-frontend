@@ -54,6 +54,7 @@ export const CakeVaultDetail: React.FC<React.PropsWithChildren<CakeVaultDetailPr
 
   return (
     <>
+{"/src/views/Pools/components/CakeVaultCard/index.tsx Line 57"}
       <StyledCardBody isLoading={isLoading}>
         {account && pool.vaultKey === VaultKey.CakeVault && (
           <VaultPositionTagWithLabel userData={(vaultPool as DeserializedLockedCakeVault).userData} />
@@ -137,6 +138,7 @@ const CakeVaultCard: React.FC<React.PropsWithChildren<CakeVaultProps>> = ({
         />
         <TokenPairImage {...vaultPoolConfig[pool.vaultKey].tokenImage} width={64} height={64} />
       </PoolCardHeader>
+{"pool.vaultKey:"+pool.vaultKey +"\nvaultPool:"+JSON.stringify(vaultPool)}
       <CakeVaultDetail
         isLoading={isLoading}
         account={account}

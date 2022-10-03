@@ -1,6 +1,8 @@
 import { getFullDecimalMultiplier } from 'utils/getFullDecimalMultiplier'
 
-export const BSC_BLOCK_TIME = 3
+// export const BSC_BLOCK_TIME = 3
+export const BSC_BLOCK_TIME = 1
+// export const C4EI_BLOCK_TIME = 1
 
 // CAKE_PER_BLOCK details
 // 40 CAKE is minted per block
