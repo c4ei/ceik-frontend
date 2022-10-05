@@ -82,3 +82,5 @@ const STABLESWAP_SUBGRAPH_ENDPOINT = 'https://api.thegraph.com/subgraphs/name/pa
 /home/dev/www/ceik.c4ei.net/packages/farms/src/const.ts
 /home/dev/www/ceik.c4ei.net/packages/farms/constants/priceHelperLps/21004.ts
 
+
+/home/dev/www/ceik.c4ei.net/node_modules/swiper/modules/autoplay/autoplay.js

@@ -5,7 +5,7 @@ export default {
     97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
     56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
     5: '0x8CB958bBdb45597cc918147469eb650A9397aBDA',
-    21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2
+    21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2 (22-09-29)
   },
   masterChefV1: {
     97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
@@ -32,6 +32,25 @@ export default {
     97: '0x4B683C7E13B6d5D7fd1FeA9530F451954c1A7c8A',
     21004: '0xBa6e79EDF8D508FfdFc31c028329EB58fC82F984',
   },
+  // TODO: multi
+  zap: {
+    56: '0xD4c4a7C55c9f7B3c48bafb6E8643Ba79F42418dF',
+    97: '0xD85835207054F25620109bdc745EC1D1f84F04e1',
+  },
+  iCake: {
+    56: '0x3C458828D1622F5f4d526eb0d24Da8C4Eb8F07b1',
+    97: '',
+  },
+  bCakeFarmBooster: {
+    56: '0xE4FAa3Ef5A9708C894435B0F39c2B440936A3A52',
+    97: '',
+    21004: '0xeC6aDc6B07316CE2345170A6c4C79864E9F7d6AA',
+  },
+  bCakeFarmBoosterProxyFactory: {
+    56: '0x2C36221bF724c60E9FEE3dd44e2da8017a8EF3BA',
+    97: '',
+  },
+  //
   pancakeBunnies: {
     56: '0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07',
     97: '0x60935F36e4631F73f0f407e68642144e07aC7f5E',
@@ -135,22 +154,5 @@ export default {
   potteryDraw: {
     56: '0x01871991587d5671f3A2d4E2BcDC22F4E026396e',
     97: '0xDB9D365b50E62fce747A90515D2bd1254A16EbB9',
-  },
-  // TODO: multi
-  zap: {
-    56: '0xD4c4a7C55c9f7B3c48bafb6E8643Ba79F42418dF',
-    97: '0xD85835207054F25620109bdc745EC1D1f84F04e1',
-  },
-  iCake: {
-    56: '0x3C458828D1622F5f4d526eb0d24Da8C4Eb8F07b1',
-    97: '',
-  },
-  bCakeFarmBooster: {
-    56: '0xE4FAa3Ef5A9708C894435B0F39c2B440936A3A52',
-    97: '',
-  },
-  bCakeFarmBoosterProxyFactory: {
-    56: '0x2C36221bF724c60E9FEE3dd44e2da8017a8EF3BA',
-    97: '',
   },
 }
