@@ -45,7 +45,7 @@
     {
       "name": "BUSD Token",
       "symbol": "BUSD",
-      "address": "0x1d43F7539C9764502A054b83477b4dbeA6F7e51D",
+      "address": "0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C",
       "chainId": 8217,
       "decimals": 18,
       "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
