@@ -116,7 +116,8 @@ const config = {
       },
       {
         source: '/pool',
-        destination: '/liquidity',
+        // destination: '/liquidity',
+        destination: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea',
         permanent: true,
       },
       {

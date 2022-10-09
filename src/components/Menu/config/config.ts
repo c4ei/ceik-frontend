@@ -62,7 +62,8 @@ const config: (
         // },
         {
           label: t('Liquidity'),
-          href: '/liquidity',
+          // href: '/liquidity',
+          href: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea',
         },
         // {
         //   label: t('Perpetual'),
@@ -78,25 +79,25 @@ const config: (
         // },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
-      label: t('Earn'),
-      href: '/farms',
-      icon: EarnIcon,
-      fillIcon: EarnFillIcon,
-      image: '/images/decorations/pe2.png',
-      supportChainIds: SUPPORT_ONLY_BSC,
-      items: [
-        {
-          label: t('Farms'),
-          href: '/farms',
-        },
-        {
-          label: t('Pools'),
-          href: '/pools',
-          supportChainIds: SUPPORT_ONLY_BSC,
-        },
-      ].map((item) => addMenuItemSupported(item, chainId)),
-    },
+    // {
+    //   label: t('Earn'),
+    //   href: '/farms',
+    //   icon: EarnIcon,
+    //   fillIcon: EarnFillIcon,
+    //   image: '/images/decorations/pe2.png',
+    //   supportChainIds: SUPPORT_ONLY_BSC,
+    //   items: [
+    //     {
+    //       label: t('Farms'),
+    //       href: '/farms',
+    //     },
+    //     {
+    //       label: t('Pools'),
+    //       href: '/pools',
+    //       supportChainIds: SUPPORT_ONLY_BSC,
+    //     },
+    //   ].map((item) => addMenuItemSupported(item, chainId)),
+    // },
     // {
     //   label: t('Win'),
     //   href: '/prediction',

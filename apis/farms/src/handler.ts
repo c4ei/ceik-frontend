@@ -130,7 +130,7 @@ export async function handleLpAprs(chainId: number, farmsConfig?: SerializedFarm
 
 export async function saveLPsAPR(chainId: number, farmsConfig?: SerializedFarmConfig[]) {
   // TODO: add other chains
-  if (chainId === 56||chainId === 21004) {
+  if (chainId === 56||chainId === 21004||chainId === 8217) {
     let data = farmsConfig
     if (!data) {
       const value = await FarmKV.getFarms(chainId)

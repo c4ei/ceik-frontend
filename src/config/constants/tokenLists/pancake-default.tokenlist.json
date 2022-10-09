@@ -11,6 +11,55 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69",
+      "chainId": 21004,
+      "decimals": 18,
+      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
+      "chainId": 21004,
+      "decimals": 18,
+      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
+      "chainId": 21004,
+      "decimals": 18,
+      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x4A01A7ecE21199b20e4A5B48c3C1D95f95d98788",
+      "chainId": 8217,
+      "decimals": 18,
+      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0x5CF8EBDce88FDc7b29879C42c5077141c342e971",
+      "chainId": 8217,
+      "decimals": 18,
+      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9",
+      "chainId": 8217,
+      "decimals": 18,
+      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+
+    {
       "name": "Wrapped BNB",
       "symbol": "WBNB",
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
@@ -61,14 +110,6 @@
     {
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
-      "address": "0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69",
-      "chainId": 21004,
-      "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
-    },
-        {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
       "address": "0xFa60D973F7642B748046464e165A65B7323b0DEE",
       "chainId": 97,
       "decimals": 18,
@@ -79,14 +120,6 @@
       "symbol": "BUSD",
       "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
       "chainId": 97,
-      "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
-    },
-    {
-      "name": "BUSD Token",
-      "symbol": "BUSD",
-      "address": "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
-      "chainId": 21004,
       "decimals": 18,
       "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
@@ -161,14 +194,6 @@
       "decimals": 6,
       "chainId": 1,
       "logoURI": "https://ceik.c4ei.net/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
-    },
-    {
-      "name": "Wrapped BNB",
-      "symbol": "WBNB",
-      "address": "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
-      "chainId": 21004,
-      "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
       "name": "Wrapped BNB",

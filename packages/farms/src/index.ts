@@ -17,7 +17,7 @@ export function createFarmFetcher(multicallv2: MultiCallV2) {
     const { isTestnet, farms, chainId } = params
     const masterChefAddress = chainId == 21004 ? masterChefAddresses[ChainId.C4EI] :
       isTestnet ? masterChefAddresses[ChainId.BSC_TESTNET] : masterChefAddresses[ChainId.BSC]
-    console.log(" line 20 [/packages/farms/src/index.ts] createFarmFetcher : "+JSON.stringify(chainId) + " / MasterChefV2Address : "+masterChefAddress)
+    // console.log(" line 20 [/packages/farms/src/index.ts] createFarmFetcher : "+JSON.stringify(chainId) + " / MasterChefV2Address : "+masterChefAddress)
     const { poolLength, totalRegularAllocPoint, totalSpecialAllocPoint, cakePerBlock } = await fetchMasterChefV2Data({
       isTestnet,
       multicallv2,

@@ -11,6 +11,7 @@ export enum ChainId {
   BSC = 56,
   BSC_TESTNET = 97,
   C4EI = 21004,
+  KLAY = 8217,
 }
 
 export enum TradeType {
@@ -26,6 +27,7 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
 export const FACTORY_ADDRESS_C4EI = '0x4e5fC6941e4cd0ba416275D746999eafC29Cd427'
+export const FACTORY_ADDRESS_KLAY = '0xd79f7D4925FAF0a0716B52ae1D3B125f9b788fBb'
 
 // // TODO: ETH This is test version, do not depends on it
 const FACTORY_ADDRESS_ETH = '0xD93801d7D3a368D94A3A32E97A20f7aC1948a5dB'
@@ -37,9 +39,11 @@ export const FACTORY_ADDRESS_MAP: Record<number, string> = {
   [ChainId.BSC]: FACTORY_ADDRESS,
   [ChainId.BSC_TESTNET]: '0x6725f303b657a9451d8ba641348b6761a6cc7a17',
   [ChainId.C4EI]: FACTORY_ADDRESS_C4EI,
+  [ChainId.KLAY]: FACTORY_ADDRESS_KLAY,
 }
 export const INIT_CODE_HASH      = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
 export const INIT_CODE_HASH_C4EI = '0xf043950a40ed5aac5b1781b0fa428c94774454e24f882b1231b6fe05145a1697'
+export const INIT_CODE_HASH_KLAY = '0x9900369d60e73c7ee68d54639c24bfd78796ec2e405e629fd893e679bbb80a4f'
 
 const INIT_CODE_HASH_ETH = '0x57224589c67f3f30a6b0d7a1b54cf3153ab84563bc609ef41dfb34f8b2974d2d'
 export const INIT_CODE_HASH_MAP: Record<number, string> = {
@@ -49,6 +53,7 @@ export const INIT_CODE_HASH_MAP: Record<number, string> = {
   [ChainId.BSC]: INIT_CODE_HASH,
   [ChainId.BSC_TESTNET]: '0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66',
   [ChainId.C4EI]: INIT_CODE_HASH_C4EI,
+  [ChainId.KLAY]: INIT_CODE_HASH_KLAY,
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
@@ -108,7 +113,7 @@ export const WBNB = {
   [ChainId.BSC]: new Token(ChainId.BSC,'0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',18,'WBNB','Wrapped BNB','https://www.binance.org'),
   [ChainId.BSC_TESTNET]: new Token(ChainId.BSC_TESTNET,'0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',18,'WBNB','Wrapped BNB','https://www.binance.org'),
   [ChainId.C4EI]: new Token(ChainId.C4EI,'0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa',18,'WBNB','Wrapped BNB','https://www.binance.org'),
-
+  [ChainId.KLAY]: new Token(ChainId.KLAY,'0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9',18,'WBNB','WrappedKLAY','https://c4ei.net'),
 }
 
 export const WNATIVE: Record<number, Token> = {
@@ -118,6 +123,7 @@ export const WNATIVE: Record<number, Token> = {
   [ChainId.BSC]: WBNB[ChainId.BSC],
   [ChainId.BSC_TESTNET]: WBNB[ChainId.BSC_TESTNET],
   [ChainId.C4EI]: WBNB[ChainId.C4EI],
+  [ChainId.KLAY]: WBNB[ChainId.KLAY],
 }
 
 export const NATIVE: Record<
@@ -134,4 +140,5 @@ export const NATIVE: Record<
   [ChainId.BSC]: { name: 'Binance Chain Native Token',symbol: 'BNB',decimals: 18,},
   [ChainId.BSC_TESTNET]: {name: 'Binance Chain Native Token',symbol: 'tBNB',decimals: 18,},
   [ChainId.C4EI]: { name: 'C4EI Native Token',symbol: 'C4EI',decimals: 18,},
+  [ChainId.KLAY]: { name: 'KLAY Native Token',symbol: 'KLAY',decimals: 18,},
 }

@@ -44,7 +44,7 @@ const useFarmsWithBalance = () => {
         }
         return accum + earningNumber.div(DEFAULT_TOKEN_DECIMAL).toNumber()
       }, 0)
-      console.log(" line 47 /src/views/Home/hooks/useFarmsWithBalance.tsx results:"+JSON.stringify(results) +"/ farmsWithBalances:"+JSON.stringify(farmsWithBalances) +"/ totalEarned:"+JSON.stringify(totalEarned) )
+      // console.log(" line 47 /src/views/Home/hooks/useFarmsWithBalance.tsx results:"+JSON.stringify(results) +"/ farmsWithBalances:"+JSON.stringify(farmsWithBalances) +"/ totalEarned:"+JSON.stringify(totalEarned) )
       return {
         farmsWithStakedBalance: farmsWithBalances,
         earningsSum: totalEarned,

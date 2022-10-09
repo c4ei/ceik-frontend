@@ -8,6 +8,7 @@ const tokens = {
       56: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       97: "0xFa60D973F7642B748046464e165A65B7323b0DEE",
       21004: "0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69", //(22-09-27)
+      8217: "0x4A01A7ecE21199b20e4A5B48c3C1D95f95d98788", //(22-10-10)
     },
     decimals: 18,
     projectLink: "https://ceik.c4ei.net/",
@@ -28,6 +29,7 @@ const tokens = {
       56: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       97: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
       21004: "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
+      8217: "0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9", //(22-10-10)
     },
     decimals: 18,
     projectLink: "https://ceik.c4ei.net/",
@@ -58,6 +60,7 @@ const tokens = {
       56: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       97: "",
       21004: "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
+      8217: "0x5CF8EBDce88FDc7b29879C42c5077141c342e971", //(22-10-10)
     },
     decimals: 18,
     projectLink: "https://www.paxos.com/busd/",

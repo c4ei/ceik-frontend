@@ -138,13 +138,13 @@ export const c4ei: Chain = {
   },
 }
 
-export const klaytn: Chain = {
+export const klay: Chain = {
   id: 8217,
   name: 'Klaytn',
   network: 'klaytn',
   nativeCurrency: { name: 'klaytn', symbol: 'KLAY', decimals: 18 },
   rpcUrls: {
-    default: 'https://api.cypress.ozys.net:8651',
+    default: 'https://public-node-api.klaytnapi.com/v1/cypress',
   },
   blockExplorers: {
     default: {
@@ -152,6 +152,11 @@ export const klaytn: Chain = {
       url: 'https://scope.klaytn.com/',
     },
   },
+  multicall: {
+    address: '0x8B1E3726cF47A290fC5782c22dd6F15585EE363B',
+    blockCreated: 103404555,
+  },
+
 }
 
 export { rinkeby, mainnet, goerli }

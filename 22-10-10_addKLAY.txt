@@ -1,0 +1,10 @@
+22-10-10
+
+/home/dev/www/farm_temp/ceik.c4ei.net/packages/multicall/index.ts
+8217: '0x8B1E3726cF47A290fC5782c22dd6F15585EE363B',
+
+/home/dev/www/farm_temp/ceik.c4ei.net/packages/swap-sdk/src/constants.ts
+KLAYTN = 8217,
+
+/home/dev/www/farm_temp/ceik.c4ei.net/packages/tokens/src/common.ts
+/home/dev/www/farm_temp/ceik.c4ei.net/packages/tokens/src/8217.ts

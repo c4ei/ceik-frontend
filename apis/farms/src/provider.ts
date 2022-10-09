@@ -8,6 +8,14 @@ export const c4eiProvider = new StaticJsonRpcProvider(
   21004,
 )
 
+export const KlaytnProvider = new StaticJsonRpcProvider(
+  {
+    url: 'https://public-node-api.klaytnapi.com/v1/cypress',
+    skipFetchSetup: true,
+  },
+  8217,
+)
+
 export const bscProvider = new StaticJsonRpcProvider(
   {
     url: 'https://nodes.pancakeswap.com',
