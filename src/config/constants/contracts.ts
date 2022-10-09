@@ -1,17 +1,18 @@
 import { multicallAddresses } from '@pancakeswap/multicall'
 
 export default {
-  masterChef: { //masterChefV2
+  masterChef: { // masterChefV2
     97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
     56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
     5: '0x8CB958bBdb45597cc918147469eb650A9397aBDA',
+    8217: '0xD7D1F3448c6979041de1Ac136a74394aDd746ff0',
     21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2 (22-09-29)
   },
   masterChefV1: {
     97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
     56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+    8217: '0x65D12FEAC942f8D89848D9d8306A2dD07d46344b',
     21004: '0xcb84554353aae0347235Dd80404197593d50D12a',
-    8217: '0xCF1f488d4861c2Ff72E0fDaB688c08be46dc1b4E',
   },
   cakeVault: {
     56: '0x45c54210128a065de780C4B0Df3d16664f7f859e',

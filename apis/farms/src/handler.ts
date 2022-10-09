@@ -6,7 +6,7 @@ import { BUSD, CAKE } from '@pancakeswap/tokens'
 import { farmFetcher } from './helper'
 import { FarmKV, FarmResult } from './kv'
 import { updateLPsAPR } from './lpApr'
-import { bscProvider, bscTestnetProvider, c4eiProvider } from './provider'
+import { bscProvider, bscTestnetProvider, c4eiProvider, klayProvider } from './provider'
 
 const pairAbi = [
   {
@@ -49,6 +49,11 @@ const cakeBusdPairMap = {
     address: Pair.getAddress(CAKE[ChainId.C4EI], BUSD[ChainId.C4EI]),
     tokenA: CAKE[ChainId.C4EI],
     tokenB: BUSD[ChainId.C4EI],
+  },
+  [ChainId.KLAY]: {
+    address: Pair.getAddress(CAKE[ChainId.KLAY], BUSD[ChainId.KLAY]),
+    tokenA: CAKE[ChainId.KLAY],
+    tokenB: BUSD[ChainId.KLAY],
   },
 }
 

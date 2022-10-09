@@ -116,7 +116,7 @@ export const NetworkSwitcher = () => {
   const symbol = NATIVE[foundChain?.id]?.symbol ?? foundChain?.nativeCurrency?.symbol
 
   const cannotChangeNetwork = !canSwitch
-  if (!chainId || chainId === ChainId.C4EI) { return null }
+  if (!chainId || chainId === ChainId.C4EI || chainId === ChainId.KLAY ) { return null }
   // if (!chainId || chainId === ChainId.BSC) { return null}
 
   return (

@@ -8,3 +8,15 @@ KLAYTN = 8217,
 
 /home/dev/www/farm_temp/ceik.c4ei.net/packages/tokens/src/common.ts
 /home/dev/www/farm_temp/ceik.c4ei.net/packages/tokens/src/8217.ts
+
+
+/home/dev/www/farm_temp/ceik.c4ei.net/src/config/constants/exchange.ts
+ROUTER_ADDRESS
+
+/home/dev/www/farm_temp/ceik.c4ei.net/packages/farms/src/index.ts
+const supportedChainId = [ChainId.GOERLI, ChainId.BSC, ChainId.BSC_TESTNET, ChainId.C4EI, ChainId.KLAY]
+
+/home/dev/www/farm_temp/ceik.c4ei.net/src/config/constants/supportChains.ts
+export const SUPPORT_ONLY_BSC = [ChainId.BSC, ChainId.KLAY, ChainId.C4EI]
+
+/home/dev/www/farm_temp/ceik.c4ei.net/src/utils/wagmi.ts

@@ -140,9 +140,9 @@ export const c4ei: Chain = {
 
 export const klay: Chain = {
   id: 8217,
-  name: 'Klaytn',
-  network: 'klaytn',
-  nativeCurrency: { name: 'klaytn', symbol: 'KLAY', decimals: 18 },
+  name: 'Klay',
+  network: 'klay',
+  nativeCurrency: { name: 'klay', symbol: 'KLAY', decimals: 18 },
   rpcUrls: {
     default: 'https://public-node-api.klaytnapi.com/v1/cypress',
   },

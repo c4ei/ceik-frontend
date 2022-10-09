@@ -1,7 +1,7 @@
-import { ChainId, Token, WBNB } from '@pancakeswap/sdk'
+import { ChainId, WBNB } from '@pancakeswap/sdk'
 import { BUSD_KLAY, CAKE_KLAY } from './common'
 
-export const klaynetTokens = {
+export const klayTokens = {
   wbnb: WBNB[ChainId.KLAY],
   cake: CAKE_KLAY,
   busd: BUSD_KLAY,

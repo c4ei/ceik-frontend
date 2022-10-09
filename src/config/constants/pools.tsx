@@ -67,7 +67,7 @@ export const livePools: SerializedPoolConfig[] = [
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
       // 56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
-      // 56: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2
+      8217: '0xD7D1F3448c6979041de1Ac136a74394aDd746ff0',
       21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2
     },
     poolCategory: PoolCategory.CORE,

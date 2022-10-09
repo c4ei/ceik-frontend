@@ -3,8 +3,8 @@ import FarmsBscPriceHelper from './56'
 import FarmsBscTestnetPriceHelper from './97'
 import FarmsEthereumPriceHelper from './1'
 import FarmsGoerliPriceHelper from './5'
+import KlayC4eiPriceHelper from './8217'
 import FarmsC4eiPriceHelper from './21004'
-// import KlayC4eiPriceHelper from './8216'
 
 export const getFarmsPriceHelperLpFiles = (chainId: ChainId) => {
   switch (chainId) {
@@ -18,8 +18,8 @@ export const getFarmsPriceHelperLpFiles = (chainId: ChainId) => {
       return FarmsGoerliPriceHelper
     case ChainId.C4EI:
       return FarmsC4eiPriceHelper
-    // case ChainId.KLAY:
-    //   return KlayC4eiPriceHelper
+    case ChainId.KLAY:
+      return KlayC4eiPriceHelper
     default:
       return []
   }

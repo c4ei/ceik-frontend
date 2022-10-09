@@ -8,7 +8,7 @@ export const c4eiProvider = new StaticJsonRpcProvider(
   21004,
 )
 
-export const KlaytnProvider = new StaticJsonRpcProvider(
+export const klayProvider = new StaticJsonRpcProvider(
   {
     url: 'https://public-node-api.klaytnapi.com/v1/cypress',
     skipFetchSetup: true,

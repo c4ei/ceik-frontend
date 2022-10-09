@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WNATIVE, WBNB } from '@pancakeswap/sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { bscTokens, bscTestnetTokens, USDC, USDT, BUSD, c4einetTokens } from '@pancakeswap/tokens'
+import { bscTokens, bscTestnetTokens, USDC, USDT, BUSD, c4einetTokens, klayTokens } from '@pancakeswap/tokens'
 import { ChainMap, ChainTokenList } from './types'
 
 export const ROUTER_ADDRESS: ChainMap<string> = {
@@ -10,6 +10,7 @@ export const ROUTER_ADDRESS: ChainMap<string> = {
   [ChainId.BSC]: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
   [ChainId.BSC_TESTNET]: '0xD99D1c33F9fC3444f8101754aBC46c52416550D1',
   [ChainId.C4EI]: '0x36DC049965fb0E07B9d49A2DCCE37Ac634D73ffa',
+  [ChainId.KLAY]: '0x747E8977721d1657c7fD266C3Ec72B98D0873a16',
 }
 
 // used to construct intermediary pairs for trading
@@ -26,6 +27,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.BSC]: [ bscTokens.wbnb, bscTokens.cake, bscTokens.busd, bscTokens.usdt, bscTokens.btcb, bscTokens.eth, bscTokens.usdc,],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
   [ChainId.C4EI]: [c4einetTokens.wbnb, c4einetTokens.cake, c4einetTokens.busd],
+  [ChainId.KLAY]: [klayTokens.wbnb, klayTokens.cake, klayTokens.busd],
 }
 
 /**
@@ -56,6 +58,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.busd, bscTokens.cake, bscTokens.btcb],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
   [ChainId.C4EI]: [c4einetTokens.wbnb, c4einetTokens.cake, c4einetTokens.busd],
+  [ChainId.KLAY]: [klayTokens.wbnb, klayTokens.cake, klayTokens.busd],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -72,6 +75,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt, bscTokens.cake],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
   [ChainId.C4EI]: [c4einetTokens.wbnb, c4einetTokens.cake, c4einetTokens.busd],
+  [ChainId.KLAY]: [klayTokens.wbnb, klayTokens.cake, klayTokens.busd],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -91,6 +95,11 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     [c4einetTokens.cake, c4einetTokens.busd],
     [c4einetTokens.cake, c4einetTokens.wbnb],
     [c4einetTokens.wbnb, c4einetTokens.busd],
+  ],
+  [ChainId.KLAY]: [
+    [c4einetTokens.cake, c4einetTokens.busd],
+    [c4einetTokens.cake, c4einetTokens.wbnb],
+    [klayTokens.wbnb, klayTokens.busd],
   ],
 }
 
