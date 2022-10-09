@@ -60,7 +60,7 @@ const tokens = {
       56: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       97: "",
       21004: "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
-      8217: "0x5CF8EBDce88FDc7b29879C42c5077141c342e971", //(22-10-10)
+      8217: "0x1d43F7539C9764502A054b83477b4dbeA6F7e51D", //(22-10-10)
     },
     decimals: 18,
     projectLink: "https://www.paxos.com/busd/",

@@ -16,7 +16,7 @@ export const USDT_ETH = new Token(ChainId.ETHEREUM,'0xdAC17F958D2ee523a220620699
 
 export const BUSD_BSC = new Token(ChainId.BSC,'0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',18,'BUSD','Binance USD','https://www.paxos.com/busd/',)
 export const BUSD_C4EI = new Token(ChainId.C4EI,'0xBa9303709c2Ad10b62a598e18e15b1E42921edea', 18,'BUSD','C4EI USD','https://c4ei.net/',)
-export const BUSD_KLAY = new Token(ChainId.KLAY,'0x5CF8EBDce88FDc7b29879C42c5077141c342e971', 18,'CUSD','CEIK USD','https://c4ei.net/',)
+export const BUSD_KLAY = new Token(ChainId.KLAY,'0x1d43F7539C9764502A054b83477b4dbeA6F7e51D', 18,'BUSD','CEIK USD','https://c4ei.net/',)
 export const BUSD_TESTNET = new Token(ChainId.BSC_TESTNET,'0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814',18,'BUSD','Binance USD','https://www.paxos.com/busd/',)
 export const BUSD_ETH = new Token(ChainId.ETHEREUM,'0x4Fabb145d64652a948d72533023f6E7A623C7C53',18,'BUSD','Binance USD','https://www.paxos.com/busd/',)
 export const BUSD_RINKEBY = new Token(ChainId.RINKEBY,'0x4e2442A6f7AeCE64Ca33d31756B5390860BF973E',18,'BUSD','Binance USD','https://www.paxos.com/busd/',)

@@ -153,7 +153,7 @@ export const klay: Chain = {
     },
   },
   multicall: {
-    address: '0x8B1E3726cF47A290fC5782c22dd6F15585EE363B',
+    address: '0xf42517428998dE5F1Fb6EB3c450c9Adaf3fFde23',
     blockCreated: 103404555,
   },
 
