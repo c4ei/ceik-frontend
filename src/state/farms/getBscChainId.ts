@@ -7,15 +7,14 @@ import { ChainId } from '@pancakeswap/sdk'
 export const getBscChainId = async (chainId: number) => {
   try {
     // console.log(" line 9 /src/state/farms/getBscChainId.ts chainId : "+chainId)
-    if(chainId==21004){
+    if(chainId===21004){
       return ChainId.C4EI
-    }
-    else if(chainId==8217){
+    } 
+    if(chainId===8217){
       return ChainId.KLAY
-    } else {
-      if (!chainId) {
-        return ChainId.BSC
-      }
+    }
+    if (!chainId) {
+      return ChainId.BSC
     }
 
     const calls = [

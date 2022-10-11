@@ -136,7 +136,9 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
         onClick={onPresentDeposit}
         disabled={['history', 'archived'].some((item) => router.pathname.includes(item))}
       >
-        {t('Stake LP') +"/pid:"+ pid}
+        {t('Stake LP') 
+        // +"/pid:"+ pid
+        }
       </Button>
     ) : (
       <IconButtonWrapper>
@@ -159,7 +161,9 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
     // /home/dev/www/ceik.c4ei.net/src/views/Farms/components/FarmCard/StakeAction.tsx
     return (
       <Button mt="8px" width="100%" disabled={pendingTx} onClick={handleApprove}>
-        {t('Enable Contract') +"/pid:"+ pid}
+        {t('Enable Contract') 
+        // +"/pid:"+ pid
+        }
       </Button>
     )
   }

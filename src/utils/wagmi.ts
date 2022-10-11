@@ -10,12 +10,12 @@ import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
 import { SafeConnector } from '@gnosis.pm/safe-apps-wagmi'
 
 const CHAINS = [
-  bsc,
+  // bsc,
   // TODO: ETH
   // mainnet,
-  bscTest,
-  rinkeby,
-  goerli,
+  // bscTest,
+  // rinkeby,
+  // goerli,
   c4ei,
   klay,
 ]

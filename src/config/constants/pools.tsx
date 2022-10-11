@@ -66,40 +66,40 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: c4einetTokens.cake ,
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
-      // 56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
+      56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
       8217: '0xD7D1F3448c6979041de1Ac136a74394aDd746ff0',
-      21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', //MasterChefV2
+      21004: '0xf05838085E69ec2519B34f1E303ABCAb0dd59bdB', // MasterChefV2
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
     isFinished: false,
   },
-  {
-    sousId: 1,
-    stakingToken: c4einetTokens.cake,
-    earningToken: c4einetTokens.wbnb,
-    contractAddress: {
-      97: '',
-      // 56: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
-      21004: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
-      // 21004: '',
-    },
-    poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '0.5787',
-  },  
-  {
-    sousId: 2,
-    stakingToken: c4einetTokens.cake,
-    earningToken: c4einetTokens.busd,
-    contractAddress: {
-      97: '',
-      // 56: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
-      21004: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
-      // 21004: '',
-    },
-    poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '0.8787',
-  },  
+  // {
+  //   sousId: 1,
+  //   stakingToken: c4einetTokens.cake,
+  //   earningToken: c4einetTokens.wbnb,
+  //   contractAddress: {
+  //     97: '',
+  //     56: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
+  //     21004: '0xdF9f91651fb6530e34B9c7A594c7FcD5F77c00e0',
+  //     // 21004: '',
+  //   },
+  //   poolCategory: PoolCategory.CORE,
+  //   tokenPerBlock: '0.5787',
+  // },  
+  // {
+  //   sousId: 2,
+  //   stakingToken: c4einetTokens.cake,
+  //   earningToken: c4einetTokens.busd,
+  //   contractAddress: {
+  //     97: '',
+  //     // 56: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
+  //     21004: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
+  //     // 21004: '',
+  //   },
+  //   poolCategory: PoolCategory.CORE,
+  //   tokenPerBlock: '0.8787',
+  // },  
 ].map((p) => ({
   ...p,
   stakingToken: p.stakingToken.serialize,
@@ -113,9 +113,10 @@ const finishedPools = [
     stakingToken: c4einetTokens.eth,
     earningToken: c4einetTokens.wbnb,
     contractAddress: {
-      // 56: '0xda6F750be1331963E5772BEe757062f6bddcEA4C',
+      56: '0xda6F750be1331963E5772BEe757062f6bddcEA4C',
       97: '',
-      21004: '0x765110c1ccc3d0Cf307EE90c7ea43b0B7F3D7B3a', //bETH-wBNB
+      21004: '0x765110c1ccc3d0Cf307EE90c7ea43b0B7F3D7B3a', // bETH-wBNB
+      8217: '',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '2.2569',

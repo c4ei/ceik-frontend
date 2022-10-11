@@ -5,7 +5,7 @@ import { Ifo } from './types'
 
 export const cakeBnbLpToken = new Token(ChainId.BSC, CAKE_BNB_LP_MAINNET, 18, 'CAKE-BNB LP')
 export const cakeBnbLpTokenC4EI = new Token(ChainId.BSC, CAKE_BNB_LP_C4EI, 18, 'CAKE-BNB LP')
-CAKE_BNB_LP_C4EI
+// CAKE_BNB_LP_C4EI
 const ifos: Ifo[] = [
   {
     id: 'co',

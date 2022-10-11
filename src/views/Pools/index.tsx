@@ -330,7 +330,7 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
             </LabelWrapper>
           </FilterContainer>
         </PoolControls>
-{"/src/views/Pools/index.tsx Line 333"}
+{/* {"/src/views/Pools/index.tsx Line 333"} */}
         {showFinishedPools && (
           <FinishedTextContainer>
             <Text fontSize={['16px', null, '20px']} color="failure" pr="4px">
@@ -347,7 +347,7 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
           </Flex>
         )}
         {viewMode === ViewMode.CARD ? cardLayout : tableLayout}
-{"/src/views/Pools/index.tsx Line 350"}
+{/* {"/src/views/Pools/index.tsx Line 350"} */}
         <div ref={observerRef} />
         <Image
           mx="auto"

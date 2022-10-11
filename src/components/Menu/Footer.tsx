@@ -47,22 +47,22 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
   return (
     <Wrapper $isSide={isSide}>
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
-        <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
+        {/* <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
-          {/* <ButtonMenuItem as="a" href="https://v1exchange.ceik.c4ei.net/#/">
+          <ButtonMenuItem as="a" href="https://v1exchange.ceik.c4ei.net/#/">
             {t('V1 (old)')}
-          </ButtonMenuItem> */}
+          </ButtonMenuItem>
           <ButtonMenuItem as="a" href="#"></ButtonMenuItem>
-        </ButtonMenu>
-        {/* <LinkExternal
+        </ButtonMenu> */}
+        <LinkExternal
           id="ercBridge"
-          href="https://docs.binance.org/smart-chain/guides/cross-chain.html"
+          href="https://c4ei.net"
           ml={[0, 0, '40px']}
           mt={['20px', '20px', isSide ? '20px' : 0]}
           mb={['8px', '8px', 0]}
         >
-          {t('Convert ERC-20 to BEP-20')}
-        </LinkExternal> */}
+          {t('get C4EI')}
+        </LinkExternal>
       </Flex>
       {isSide && <Flex flexGrow={1} />}
       <Flex

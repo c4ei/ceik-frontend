@@ -24,6 +24,8 @@ const initialData = {
     contractAddress: {
       97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
       56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      8217: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      21004: '0xcb84554353aae0347235Dd80404197593d50D12a',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
