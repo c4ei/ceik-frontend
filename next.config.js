@@ -150,5 +150,11 @@ const config = {
 }
 
 module.exports = withBundleAnalyzer(
-  withVanillaExtract(withSentryConfig(withTM(withAxiom(config)), sentryWebpackPluginOptions)),
+  withVanillaExtract(
+    // withSentryConfig(withTM(withAxiom(config)), sentryWebpackPluginOptions)
+    '/dist',
+    ),
 )
+// module.exports = {
+//   distDir: '/home/dev/www/farm_temp/temp/publ',
+// }
