@@ -79,6 +79,29 @@ const config: (
         // },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
+    {
+      label: t('Earn'),
+      // href: '/farms',
+      href: 'https://farm.c4ei.net',
+      icon: EarnIcon,
+      fillIcon: EarnFillIcon,
+      image: '/images/decorations/pe2.png',
+      supportChainIds: SUPPORT_ONLY_BSC,
+      items: [
+        {
+          label: t('Farms'),
+          // href: '/farms',
+          href: 'https://farm.c4ei.net/farms',
+        },
+        {
+          label: t('Pools'),
+          // href: '/pools',
+          href: 'https://farm.c4ei.net/pools',
+          supportChainIds: SUPPORT_ONLY_BSC,
+        },
+      ].map((item) => addMenuItemSupported(item, chainId)),
+    },
+
     // {
     //   label: t('Earn'),
     //   href: '/farms',
