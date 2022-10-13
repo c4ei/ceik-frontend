@@ -16,8 +16,8 @@ const mappingNetwork: Record<number, string> = {
   1: 'eth-mainnet',
   56: 'bsc-mainnet',
   97: 'bsc-testnet',
-  21004: 'c4ei-mainnet',
   8217: 'klay-mainnet',
+  21004: 'c4ei-mainnet',
 }
 
 const _binanceChainListener = async () =>

@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components";
 import Flex from "../../../components/Box/Flex";
 import { LogoIcon, LogoWithTextIcon } from "../../../components/Svg";
 import { MenuContext } from "../context";
+// import { NewLogoIcon } from "LogoTextNewDark.png";
 
 interface Props {
   isDark: boolean;

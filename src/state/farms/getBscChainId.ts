@@ -14,7 +14,8 @@ export const getBscChainId = async (chainId: number) => {
       return ChainId.KLAY
     }
     if (!chainId) {
-      return ChainId.BSC
+      // return ChainId.BSC
+      return ChainId.C4EI
     }
 
     const calls = [
@@ -28,6 +29,7 @@ export const getBscChainId = async (chainId: number) => {
     return bscChainId
   } catch (error) {
     console.error('Get BSC Chain Id Error: ', error)
-    return ChainId.BSC
+    // return ChainId.BSC
+    return ChainId.C4EI
   }
 }
