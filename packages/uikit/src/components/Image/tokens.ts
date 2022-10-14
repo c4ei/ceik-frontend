@@ -11,7 +11,7 @@ const tokens = {
       21004: "0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69", //(22-09-27)
     },
     decimals: 18,
-    projectLink: "https://ceik.c4ei.net/",
+    projectLink: "https://swap.c4ei.net/",
   },
   bunny: {
     symbol: "BUNNY",
@@ -32,7 +32,7 @@ const tokens = {
       21004: "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
     },
     decimals: 18,
-    projectLink: "https://ceik.c4ei.net/",
+    projectLink: "https://swap.c4ei.net/",
   },
   // sushi: {
   //   symbol: "SUSHI",
@@ -53,7 +53,7 @@ const tokens = {
       21004: "0xABB8a013F21a491C2e35d143A31FB708499A92c0",
     },
     decimals: 18,
-    projectLink: "https://ceik.c4ei.net/",
+    projectLink: "https://swap.c4ei.net/",
   },
   busd: {
     symbol: "BUSD",

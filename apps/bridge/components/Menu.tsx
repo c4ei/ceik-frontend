@@ -75,7 +75,7 @@ export function Menu() {
   return (
     <Flex height="56px" bg="backgroundAlt" px="16px" alignItems="center" justifyContent="space-between" zIndex={9}>
       <Flex>
-        <Logo isDark={theme.isDark} href="https://ceik.c4ei.net" />
+        <Logo isDark={theme.isDark} href="https://swap.c4ei.net" />
 
         <Flex pl={['25px', null, '50px']}>
           <Box display={['none', null, 'flex']}>
@@ -83,7 +83,7 @@ export function Menu() {
               <StyledMenuItem $isActive>Bridge</StyledMenuItem>
             </NextLink>
           </Box>
-          <StyledMenuItem href="https://ceik.c4ei.net/swap">Swap</StyledMenuItem>
+          <StyledMenuItem href="https://swap.c4ei.net/swap">Swap</StyledMenuItem>
         </Flex>
       </Flex>
       <Flex alignItems="center">

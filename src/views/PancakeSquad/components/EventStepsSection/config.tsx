@@ -56,7 +56,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://ceik.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
+            href="https://swap.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
             target="_blank"
             width="100%"
           >

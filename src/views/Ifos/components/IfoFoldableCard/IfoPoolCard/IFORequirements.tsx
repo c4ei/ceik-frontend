@@ -22,7 +22,7 @@ const NotOkNFT = ({ admissionProfile }) => {
         <>
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://ceik.c4ei.net/nfts/collections/${admissionProfile}`}
+            href={`https://swap.c4ei.net/nfts/collections/${admissionProfile}`}
           >
             {t('Pancake Squad NFT')}
           </LinkExternal>
@@ -50,7 +50,7 @@ const NotOkProfilePoints = ({ pointThreshold }) => {
           <br />
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://ceik.c4ei.net/profile/${account}/achievements/`}
+            href={`https://swap.c4ei.net/profile/${account}/achievements/`}
           >
             {t('Pancake Profile')}
           </LinkExternal>

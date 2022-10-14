@@ -1,9 +1,9 @@
 import { ChainId, Token } from '@pancakeswap/sdk'
 
-export const CAKE_MAINNET = new Token( ChainId.BSC, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'CAKE', 'PancakeSwap Token', 'https://ceik.c4ei.net/',)
-export const CAKE_C4EI = new Token( ChainId.C4EI, '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69', 18, 'CAKE', 'C4EISwap Token', 'https://ceik.c4ei.net/',)
-export const CAKE_KLAY = new Token( ChainId.KLAY, '0x4A01A7ecE21199b20e4A5B48c3C1D95f95d98788', 18, 'CAKE', 'CeikSwap Token', 'https://ceik.c4ei.net/',)
-export const CAKE_TESTNET = new Token( ChainId.BSC_TESTNET,'0xFa60D973F7642B748046464e165A65B7323b0DEE',18,'CAKE','PancakeSwap Token','https://ceik.c4ei.net/',)
+export const CAKE_MAINNET = new Token( ChainId.BSC, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'CAKE', 'PancakeSwap Token', 'https://swap.c4ei.net/',)
+export const CAKE_C4EI = new Token( ChainId.C4EI, '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69', 18, 'CAKE', 'C4EISwap Token', 'https://swap.c4ei.net/',)
+export const CAKE_KLAY = new Token( ChainId.KLAY, '0x4A01A7ecE21199b20e4A5B48c3C1D95f95d98788', 18, 'CAKE', 'CeikSwap Token', 'https://swap.c4ei.net/',)
+export const CAKE_TESTNET = new Token( ChainId.BSC_TESTNET,'0xFa60D973F7642B748046464e165A65B7323b0DEE',18,'CAKE','PancakeSwap Token','https://swap.c4ei.net/',)
 
 export const USDC_BSC = new Token(ChainId.BSC,'0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',18,'USDC','Binance-Peg USD Coin','https://www.centre.io/usdc',)
 export const USDC_TESTNET = new Token(ChainId.BSC_TESTNET,'0x64544969ed7EBf5f083679233325356EbE738930',18,'USDC','Binance-Peg USD Coin','https://www.centre.io/usdc',)

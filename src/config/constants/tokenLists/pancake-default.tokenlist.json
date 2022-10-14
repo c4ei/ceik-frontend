@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://ceik.c4ei.net/logo.png",
+  "logoURI": "https://swap.c4ei.net/logo.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "address": "0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "BUSD Token",
@@ -24,7 +24,7 @@
       "address": "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "Wrapped BNB",
@@ -32,7 +32,7 @@
       "address": "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -40,7 +40,7 @@
       "address": "0x4A01A7ecE21199b20e4A5B48c3C1D95f95d98788",
       "chainId": 8217,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "BUSD Token",
@@ -48,7 +48,7 @@
       "address": "0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C",
       "chainId": 8217,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "Wrapped BNB",
@@ -56,7 +56,7 @@
       "address": "0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9",
       "chainId": 8217,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
 
     {
@@ -65,7 +65,7 @@
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
       "name": "BUSD Token",
@@ -73,7 +73,7 @@
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "Ethereum Token",
@@ -81,7 +81,7 @@
       "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
     },
     {
       "name": "BTCB Token",
@@ -89,7 +89,7 @@
       "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
     },
     {
       "name": "Tether USD",
@@ -97,7 +97,7 @@
       "address": "0x55d398326f99059fF775485246999027B3197955",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -105,7 +105,7 @@
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -113,7 +113,7 @@
       "address": "0xFa60D973F7642B748046464e165A65B7323b0DEE",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "BUSD Token",
@@ -121,7 +121,7 @@
       "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "BUSD Token",
@@ -129,7 +129,7 @@
       "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
       "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "BUSD Token",
@@ -137,7 +137,7 @@
       "address": "0x4e2442A6f7AeCE64Ca33d31756B5390860BF973E",
       "chainId": 4,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "Wrapped Ether",
@@ -169,7 +169,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
     },
     {
       "name": "Test USD Coin",
@@ -177,7 +177,7 @@
       "symbol": "tUSDC",
       "decimals": 6,
       "chainId": 4,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
     },
     {
       "name": "Test USD Coin",
@@ -185,7 +185,7 @@
       "symbol": "tUSDC",
       "decimals": 6,
       "chainId": 5,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
     },
     {
       "name": "Tether USD",
@@ -193,7 +193,7 @@
       "symbol": "USDT",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
     },
     {
       "name": "Wrapped BNB",
@@ -201,7 +201,7 @@
       "address": "0x418D75f65a02b3D53B2418FB8E1fe493759c7605",
       "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
       "name": "Wrapped BNB",
@@ -209,7 +209,7 @@
       "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     }
   ]
 }

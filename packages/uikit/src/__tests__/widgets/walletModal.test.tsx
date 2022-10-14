@@ -347,7 +347,7 @@ it("renders ConnectModal correctly", () => {
             </p>
             <a
               class="c16"
-              href="https://docs.ceik.c4ei.net/get-started/connection-guide"
+              href="https://docs.swap.c4ei.net/get-started/connection-guide"
               rel="noreferrer noopener"
               scale="md"
               target="_blank"

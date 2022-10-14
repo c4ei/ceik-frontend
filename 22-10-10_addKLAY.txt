@@ -1,35 +1,35 @@
 22-10-10
 
-/home/dev/www/farm_temp/ceik.c4ei.net/packages/multicall/index.ts
+/home/dev/www/farm_temp/swap.c4ei.net/packages/multicall/index.ts
 8217: '0x8B1E3726cF47A290fC5782c22dd6F15585EE363B',
 
-/home/dev/www/farm_temp/ceik.c4ei.net/packages/swap-sdk/src/constants.ts
+/home/dev/www/farm_temp/swap.c4ei.net/packages/swap-sdk/src/constants.ts
 KLAYTN = 8217,
 
-/home/dev/www/farm_temp/ceik.c4ei.net/packages/tokens/src/common.ts
-/home/dev/www/farm_temp/ceik.c4ei.net/packages/tokens/src/8217.ts
+/home/dev/www/farm_temp/swap.c4ei.net/packages/tokens/src/common.ts
+/home/dev/www/farm_temp/swap.c4ei.net/packages/tokens/src/8217.ts
 
 
-/home/dev/www/farm_temp/ceik.c4ei.net/src/config/constants/exchange.ts
+/home/dev/www/farm_temp/swap.c4ei.net/src/config/constants/exchange.ts
 ROUTER_ADDRESS
 
-/home/dev/www/farm_temp/ceik.c4ei.net/packages/farms/src/index.ts
+/home/dev/www/farm_temp/swap.c4ei.net/packages/farms/src/index.ts
 const supportedChainId = [ChainId.GOERLI, ChainId.BSC, ChainId.BSC_TESTNET, ChainId.C4EI, ChainId.KLAY]
 
-/home/dev/www/farm_temp/ceik.c4ei.net/src/config/constants/supportChains.ts
+/home/dev/www/farm_temp/swap.c4ei.net/src/config/constants/supportChains.ts
 export const SUPPORT_ONLY_BSC = [ChainId.BSC, ChainId.KLAY, ChainId.C4EI]
 
-/home/dev/www/farm_temp/ceik.c4ei.net/src/utils/wagmi.ts
+/home/dev/www/farm_temp/swap.c4ei.net/src/utils/wagmi.ts
 
 #####################################################################################################################
 2022-10-10 05-15
 #####################################################################################################################
 [0]:ALBA(8217:0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5)-BUSD(8217:BUSD- 0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C)
-https://ceik.c4ei.net/add/0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5/0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C?chainId=8217
+https://swap.c4ei.net/add/0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5/0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C?chainId=8217
 [1]:ALBA(8217:0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5)-KLAY(8217:KLAY- 0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9)
-https://ceik.c4ei.net/add/0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5/0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9?chainId=8217
+https://swap.c4ei.net/add/0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5/0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9?chainId=8217
 [2]:KLAY(8217:0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9)-BUSD(8217:BUSD- 0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C)
-https://ceik.c4ei.net/add/0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9/0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C?chainId=8217
+https://swap.c4ei.net/add/0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9/0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C?chainId=8217
 
 [3]:0: ALBA-BUSD LP : 500,0x94923842E2791eA8e4D1CeC26F3f14Ca30768D32,0,0
 [4]:1: ALBA-KLAY LP : 500,0x604a309612e6CDf1C30045A4F9201D5146db2497,0,0

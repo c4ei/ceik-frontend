@@ -207,7 +207,7 @@ export const bscTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://ceik.c4ei.net/',
+    'https://swap.c4ei.net/',
   ),
   pha: new Token(
     ChainId.BSC,

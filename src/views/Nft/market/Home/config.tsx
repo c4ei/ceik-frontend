@@ -17,7 +17,7 @@ const config = (t: ContextApi['t']) => {
       description: [
         t('In Phase 2 of the NFT Marketplace, collections must be whitelisted before they may be listed.'),
         t('We are now accepting applications from NFT collection owners seeking to list their collections.'),
-        <LinkExternal href="https://docs.ceik.c4ei.net/contact-us/nft-market-applications">
+        <LinkExternal href="https://docs.swap.c4ei.net/contact-us/nft-market-applications">
           {t('Please apply here')}
         </LinkExternal>,
       ],

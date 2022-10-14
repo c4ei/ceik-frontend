@@ -36,7 +36,7 @@ const useAuth = () => {
             t('Provider Error'),
             <Box>
               <Text>{t('No provider was found')}</Text>
-              <LinkExternal href="https://docs.ceik.c4ei.net/get-started/connection-guide">
+              <LinkExternal href="https://docs.swap.c4ei.net/get-started/connection-guide">
                 {t('Need help ?')}
               </LinkExternal>
             </Box>,

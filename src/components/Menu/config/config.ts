@@ -67,14 +67,14 @@ const config: (
         },
         // {
         //   label: t('Perpetual'),
-        //   href: `https://perp.ceik.c4ei.net/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
+        //   href: `https://perp.swap.c4ei.net/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
         //     isDark,
         //   )}`,
         //   type: DropdownMenuItemType.EXTERNAL_LINK,
         // },
         // {
         //   label: t('Bridge'),
-        //   href: 'https://bridge.ceik.c4ei.net/',
+        //   href: 'https://bridge.swap.c4ei.net/',
         //   type: DropdownMenuItemType.EXTERNAL_LINK,
         // },
       ].map((item) => addMenuItemSupported(item, chainId)),
@@ -215,7 +215,7 @@ const config: (
     //     },
     //     {
     //       label: t('Docs'),
-    //       href: 'https://docs.ceik.c4ei.net',
+    //       href: 'https://docs.swap.c4ei.net',
     //       type: DropdownMenuItemType.EXTERNAL_LINK,
     //     },
     //   ].map((item) => addMenuItemSupported(item, chainId)),

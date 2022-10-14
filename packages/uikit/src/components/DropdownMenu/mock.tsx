@@ -12,7 +12,7 @@ const ItemsMock: DropdownMenuItems[] = [
   },
   {
     label: "LP Migration",
-    href: "https://v1exchange.ceik.c4ei.net/#/migrate",
+    href: "https://v1exchange.swap.c4ei.net/#/migrate",
     type: DropdownMenuItemType.EXTERNAL_LINK,
   },
   {

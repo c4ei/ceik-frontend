@@ -11,7 +11,7 @@ export const bscTestnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://ceik.c4ei.net/',
+    'https://swap.c4ei.net/',
   ),
   bake: new Token(
     ChainId.BSC_TESTNET,

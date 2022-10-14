@@ -141,4 +141,4 @@ export const DEFAULT_OUTPUT_CURRENCY = '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d
 export const GELATO_HANDLER = 'pancakeswap'
 export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = BigNumber.from(500000)
 
-export const LIMIT_ORDERS_DOCS_URL = 'https://docs.ceik.c4ei.net/products/pancakeswap-exchange/limit-orders'
+export const LIMIT_ORDERS_DOCS_URL = 'https://docs.swap.c4ei.net/products/pancakeswap-exchange/limit-orders'

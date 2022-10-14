@@ -158,7 +158,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
 
   // TODO: Move this out to prevent unnecessary re-rendered
   if (!isApproved) {
-    // /home/dev/www/ceik.c4ei.net/src/views/Farms/components/FarmCard/StakeAction.tsx
+    // /home/dev/www/swap.c4ei.net/src/views/Farms/components/FarmCard/StakeAction.tsx
     return (
       <Button mt="8px" width="100%" disabled={pendingTx} onClick={handleApprove}>
         {t('Enable Contract') 

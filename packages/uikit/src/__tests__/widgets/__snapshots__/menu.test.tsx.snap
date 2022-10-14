@@ -1903,7 +1903,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://ceik.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
+              href="https://swap.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
               target="_blank"
             >
               <svg
@@ -2269,7 +2269,7 @@ exports[`renders correctly 1`] = `
                     color="text"
                     data-theme="dark"
                     font-size="16px"
-                    href="https://docs.ceik.c4ei.net/contact-us"
+                    href="https://docs.swap.c4ei.net/contact-us"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2293,7 +2293,7 @@ exports[`renders correctly 1`] = `
                     color="text"
                     data-theme="dark"
                     font-size="16px"
-                    href="Support https://docs.ceik.c4ei.net/contact-us/customer-support"
+                    href="Support https://docs.swap.c4ei.net/contact-us/customer-support"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -3011,7 +3011,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://ceik.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
+                    href="https://swap.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
                     target="_blank"
                   >
                     <svg
@@ -3076,7 +3076,7 @@ exports[`renders correctly 1`] = `
                 <a
                   class="c92"
                   data-theme="light"
-                  href="https://ceik.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
+                  href="https://swap.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
                   scale="sm"
                   target="_blank"
                 >

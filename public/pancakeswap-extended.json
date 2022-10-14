@@ -7,7 +7,7 @@
     "patch": 1
   },
   "tags": {},
-  "logoURI": "https://ceik.c4ei.net/logo.png",
+  "logoURI": "https://swap.c4ei.net/logo.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "address": "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
     },
     {
       "name": "C4EI KLAY",
@@ -24,7 +24,7 @@
       "address": "0x18814b01b5cc76f7043e10fd268cc4364df47da0",
       "chainId": 8217,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/CEIK.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/CEIK.png"
     },
     {
       "name": "ALBA",
@@ -32,7 +32,7 @@
       "address": "0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5",
       "chainId": 8217,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/ALBA.png"
+      "logoURI": "https://swap.c4ei.net/images/tokens/ALBA.png"
     }
   ]
 }

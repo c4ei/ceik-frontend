@@ -257,7 +257,7 @@ const ContributeModal: React.FC<React.PropsWithChildren<Props>> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.ceik.c4ei.net/products/ifo-initial-farm-offering"
+              href="https://docs.swap.c4ei.net/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

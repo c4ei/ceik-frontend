@@ -1,7 +1,7 @@
 # Contributing to the Pancake ecosystem 🥞
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.ceik.c4ei.net/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.swap.c4ei.net/code/contributing) first.
 
 ## Setup
 

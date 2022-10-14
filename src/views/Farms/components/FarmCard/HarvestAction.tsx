@@ -10,7 +10,7 @@ import { TransactionResponse } from '@ethersproject/providers'
 import { usePriceCakeBusd } from 'state/farms/hooks'
 import { BIG_ZERO } from 'utils/bigNumber'
 import { getBalanceAmount } from 'utils/formatBalance'
-// /home/dev/www/ceik.c4ei.net/src/views/Farms/components/FarmCard/HarvestAction.tsx
+// /home/dev/www/swap.c4ei.net/src/views/Farms/components/FarmCard/HarvestAction.tsx
 interface FarmCardActionsProps {
   earnings?: BigNumber
   pid?: number

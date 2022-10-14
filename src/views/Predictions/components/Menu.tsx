@@ -80,7 +80,7 @@ const Menu = () => {
                 <Button
                   variant="subtle"
                   as="a"
-                  href="https://docs.ceik.c4ei.net/products/prediction"
+                  href="https://docs.swap.c4ei.net/products/prediction"
                   target="_blank"
                   rel="noreferrer noopener"
                   width="48px"

@@ -7,12 +7,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.ceik.c4ei.net/contact-us',
+        href: 'https://docs.swap.c4ei.net/contact-us',
         isHighlighted: true,
       },
       // {
       //   label: t('Brand'),
-      //   href: 'https://docs.ceik.c4ei.net/brand',
+      //   href: 'https://docs.swap.c4ei.net/brand',
       // },
       // {
       //   label: t('Blog'),
@@ -20,11 +20,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       // },
       // {
       //   label: t('Community'),
-      //   href: 'https://docs.ceik.c4ei.net/contact-us/telegram',
+      //   href: 'https://docs.swap.c4ei.net/contact-us/telegram',
       // },
       // {
       //   label: t('Litepaper'),
-      //   href: 'https://v2litepaper.ceik.c4ei.net/',
+      //   href: 'https://v2litepaper.swap.c4ei.net/',
       // },
       // {
       //   label: '—',
@@ -40,15 +40,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       // {
       //   label: t('Customer Support'),
-      //   href: 'https://docs.ceik.c4ei.net/contact-us/customer-support',
+      //   href: 'https://docs.swap.c4ei.net/contact-us/customer-support',
       // },
       // {
       //   label: t('Troubleshooting'),
-      //   href: 'https://docs.ceik.c4ei.net/help/troubleshooting',
+      //   href: 'https://docs.swap.c4ei.net/help/troubleshooting',
       // },
       {
         label: t('Guides'),
-        href: 'https://docs.ceik.c4ei.net/get-started',
+        href: 'https://docs.swap.c4ei.net/get-started',
       },
     ],
   },
@@ -61,19 +61,19 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       // {
       //   label: t('Documentation'),
-      //   href: 'https://docs.ceik.c4ei.net',
+      //   href: 'https://docs.swap.c4ei.net',
       // },
       // {
       //   label: t('Bug Bounty'),
-      //   href: 'https://docs.ceik.c4ei.net/code/bug-bounty',
+      //   href: 'https://docs.swap.c4ei.net/code/bug-bounty',
       // },
       // {
       //   label: t('Audits'),
-      //   href: 'https://docs.ceik.c4ei.net/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited',
+      //   href: 'https://docs.swap.c4ei.net/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited',
       // },
       // {
       //   label: t('Careers'),
-      //   href: 'https://docs.ceik.c4ei.net/hiring/become-a-chef',
+      //   href: 'https://docs.swap.c4ei.net/hiring/become-a-chef',
       // },
     ],
   },

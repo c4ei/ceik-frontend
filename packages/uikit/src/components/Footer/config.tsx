@@ -8,7 +8,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.ceik.c4ei.net/contact-us",
+        href: "https://docs.swap.c4ei.net/contact-us",
       },
       // {
       //   label: "Blog",
@@ -16,11 +16,11 @@ export const footerLinks: FooterLinkType[] = [
       // },
       // {
       //   label: "Community",
-      //   href: "https://docs.ceik.c4ei.net/contact-us/telegram",
+      //   href: "https://docs.swap.c4ei.net/contact-us/telegram",
       // },
       // {
       //   label: "CAKE",
-      //   href: "https://docs.ceik.c4ei.net/tokenomics/cake",
+      //   href: "https://docs.swap.c4ei.net/tokenomics/cake",
       // },
       // {
       //   label: "—",
@@ -37,15 +37,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       // {
       //   label: "Customer",
-      //   href: "Support https://docs.ceik.c4ei.net/contact-us/customer-support",
+      //   href: "Support https://docs.swap.c4ei.net/contact-us/customer-support",
       // },
       // {
       //   label: "Troubleshooting",
-      //   href: "https://docs.ceik.c4ei.net/help/troubleshooting",
+      //   href: "https://docs.swap.c4ei.net/help/troubleshooting",
       // },
       {
         label: "Guides",
-        href: "https://docs.ceik.c4ei.net/get-started",
+        href: "https://docs.swap.c4ei.net/get-started",
       },
     ],
   },
@@ -58,7 +58,7 @@ export const footerLinks: FooterLinkType[] = [
       },
       // {
       //   label: "Documentation",
-      //   href: "https://docs.ceik.c4ei.net",
+      //   href: "https://docs.swap.c4ei.net",
       // },
       // {
       //   label: "Bug Bounty",
@@ -66,11 +66,11 @@ export const footerLinks: FooterLinkType[] = [
       // },
       // {
       //   label: "Audits",
-      //   href: "https://docs.ceik.c4ei.net/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+      //   href: "https://docs.swap.c4ei.net/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
       // },
       // {
       //   label: "Careers",
-      //   href: "https://docs.ceik.c4ei.net/hiring/become-a-chef",
+      //   href: "https://docs.swap.c4ei.net/hiring/become-a-chef",
       // },
     ],
   },
