@@ -47,6 +47,14 @@ export const footerLinks: FooterLinkType[] = [
         label: "Guides",
         href: "https://docs.swap.c4ei.net/get-started",
       },
+      {
+        label: "use C4EI",
+        href: "https://swap.c4ei.net/add?chainId=21004",
+      },
+      {
+        label: "use KLAY",
+        href: "https://swap.c4ei.net/add?chainId=8217",
+      },
     ],
   },
   {
