@@ -39,14 +39,14 @@ const stargateNetowrk = [
     chain: optimism,
   },
   {
-    chainId: 21004,
-    name: 'C4EI',
-    chain: c4ei,
-  },
-  {
     chainId: 8217,
     name: 'KLAY',
     chain: klay,
+  },
+  {
+    chainId: 21004,
+    name: 'C4EI',
+    chain: c4ei,
   },
 ]
 

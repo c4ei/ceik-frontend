@@ -7,9 +7,11 @@ const getLpApr = (chainId: number) => {
   switch (chainId) {
     case 56:
       return lpAprs56
+    // case 8217:
+    //   return lpAprs8217
     case 21004:
       return lpAprs21004
-      default:
+    default:
       return {}
   }
 }
