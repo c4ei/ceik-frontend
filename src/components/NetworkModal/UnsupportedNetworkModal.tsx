@@ -16,7 +16,7 @@ import Dots from '../Loader/Dots'
 export function UnsupportedNetworkModal() {
   const { switchNetworkAsync, isLoading, canSwitch } = useSwitchNetwork()
   const { chains } = useNetwork()
-  const chainId = useLocalNetworkChain() || ChainId.BSC || ChainId.C4EI
+  const chainId = useLocalNetworkChain() || ChainId.BSC || ChainId.C4EI || ChainId.KLAY
   const { isConnected } = useAccount()
   const { logout } = useAuth()
   const { t } = useTranslation()
@@ -49,7 +49,7 @@ export function UnsupportedNetworkModal() {
           />
         </div>
         <Message variant="warning">
-          <MessageText>{t('Please switch your network to continue.')}</MessageText>
+          <MessageText>{t('Please switch your network to continue. current:'+chainId+'', )}</MessageText>
         </Message>
         {canSwitch && (
           <Button
