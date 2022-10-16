@@ -21,7 +21,7 @@
     {
       "name": "C4EI KLAY",
       "symbol": "CEIK",
-      "address": "0x18814b01b5cc76f7043e10fd268cc4364df47da0",
+      "address": "0x18814b01b5CC76F7043E10fd268cc4364dF47dA0",
       "chainId": 8217,
       "decimals": 18,
       "logoURI": "https://swap.c4ei.net/images/tokens/CEIK.png"
