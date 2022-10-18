@@ -39,6 +39,17 @@ export const CAKE = {
   [ChainId.KLAY]: CAKE_KLAY,
 }
 
+export const ALBA_C4EI = new Token( ChainId.C4EI, '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', 18, 'ALBA', 'ALBA Defi', 'https://swap.c4ei.net/',)
+export const ALBA_KLAY = new Token( ChainId.KLAY, '0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5', 18, 'ALBA', 'ALBA Defi', 'https://scope.klaytn.com/token/0xbE1a79Ac31DE3f69C9643fBeC19ee54EFAA944a5?tabId=tokenTransfer',)
+export const ALBA = { [ChainId.C4EI]: ALBA_C4EI, [ChainId.KLAY]: ALBA_KLAY, }
+// 8217 export const ALBA_KLAY_LP : '0x604a309612e6CDf1C30045A4F9201D5146db2497'
+// 21004 export const ALBA_C4EI_LP : '0x05FB813418a1F7190754502Cb3085fAa968F1b70'
+
+export const NATIVE_C4EI = new Token( ChainId.C4EI, '0x0000000000000000000000000000000000000000', 18, 'C4EI', 'Crypto4EI', 'https://c4ei.net/',)
+export const NATIVE_KLAY = new Token( ChainId.KLAY, '0x0000000000000000000000000000000000000000', 18, 'KLAY', 'KLAYTN', 'https://scope.klaytn.com/',)
+export const NATIVEcOIN = { [ChainId.C4EI]: NATIVE_C4EI, [ChainId.KLAY]: NATIVE_KLAY, }
+
+
 export const USDC = {
   [ChainId.BSC]: USDC_BSC,
   [ChainId.BSC_TESTNET]: USDC_TESTNET,
