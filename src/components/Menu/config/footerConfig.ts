@@ -55,8 +55,16 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: "https://swap.c4ei.net/add?chainId=21004",
       },
       {
+        label: "MyLP(C4EI)",
+        href: "https://swap.c4ei.net/liquidity?chainId=21004",
+      },
+      {
         label: "use KLAY",
         href: "https://swap.c4ei.net/add?chainId=8217",
+      },
+      {
+        label: "MyLP(KLAY)",
+        href: "https://swap.c4ei.net/liquidity?chainId=8217",
       },
     ],
   },

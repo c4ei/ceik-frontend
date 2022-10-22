@@ -49,7 +49,7 @@ export function UnsupportedNetworkModal() {
           />
         </div>
         <Message variant="warning">
-          <MessageText>{t('Please switch your network to continue. current:'+chainId+'', )}</MessageText>
+          <MessageText>{t('Please switch your network to continue.', )}</MessageText>
         </Message>
         {canSwitch && (
           <Button
