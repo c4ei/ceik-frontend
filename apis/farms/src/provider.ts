@@ -10,9 +10,9 @@ export const c4eiProvider = new StaticJsonRpcProvider(
 
 export const klayProvider = new StaticJsonRpcProvider(
   {
-    // url: 'https://public-node-api.klaytnapi.com/v1/cypress',
+    url: 'https://public-node-api.klaytnapi.com/v1/cypress',
     // url: 'https://cypress.chain.thebifrost.io',
-    url: 'https://en.klayfi.finance',
+    // url: 'https://en.klayfi.finance',
     skipFetchSetup: true,
   },
   8217,

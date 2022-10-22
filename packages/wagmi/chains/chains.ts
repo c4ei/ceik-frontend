@@ -144,9 +144,9 @@ export const klay: Chain = {
   network: 'klay',
   nativeCurrency: { name: 'klay', symbol: 'KLAY', decimals: 18 },
   rpcUrls: {
-    // default: 'https://public-node-api.klaytnapi.com/v1/cypress',
+    default: 'https://public-node-api.klaytnapi.com/v1/cypress',
     // default: 'https://cypress.chain.thebifrost.io',
-    default: 'https://en.klayfi.finance',
+    // default: 'https://en.klayfi.finance',
   },
   blockExplorers: {
     default: {
