@@ -90,3 +90,8 @@ const STABLESWAP_SUBGRAPH_ENDPOINT = 'https://api.thegraph.com/subgraphs/name/pa
 
 /home/dev/www/swap.c4ei.net/dist/static/media/
 bunny@2x.957fd943.png
+
+22-10-25
+/packages/swap-sdk/src/constants.ts
+export const FACTORY_ADDRESS_KLAY = '0xd79f7D4925FAF0a0716B52ae1D3B125f9b788fBb'
+export const INIT_CODE_HASH_KLAY = '0x9900369d60e73c7ee68d54639c24bfd78796ec2e405e629fd893e679bbb80a4f'

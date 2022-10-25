@@ -5,25 +5,15 @@ import { Token } from './entities/token'
 export type BigintIsh = JSBI | number | string
 
 export enum ChainId {
-  ETHEREUM = 1,
-  RINKEBY = 4,
-  GOERLI = 5,
-  BSC = 56,
-  BSC_TESTNET = 97,
+  ETHEREUM = 1, RINKEBY = 4, GOERLI = 5,
+  BSC = 56, BSC_TESTNET = 97,
   KLAY = 8217,
   C4EI = 21004,
 }
 
-export enum TradeType {
-  EXACT_INPUT,
-  EXACT_OUTPUT,
-}
+export enum TradeType { EXACT_INPUT, EXACT_OUTPUT, }
 
-export enum Rounding {
-  ROUND_DOWN,
-  ROUND_HALF_UP,
-  ROUND_UP,
-}
+export enum Rounding { ROUND_DOWN, ROUND_HALF_UP, ROUND_UP, }
 
 export const FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
 export const FACTORY_ADDRESS_C4EI = '0x4e5fC6941e4cd0ba416275D746999eafC29Cd427'
@@ -71,10 +61,7 @@ export const _10000 = JSBI.BigInt(10000)
 
 export const MaxUint256 = JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 
-export enum SolidityType {
-  uint8 = 'uint8',
-  uint256 = 'uint256',
-}
+export enum SolidityType { uint8 = 'uint8', uint256 = 'uint256', }
 
 export const SOLIDITY_TYPE_MAXIMA = {
   [SolidityType.uint8]: JSBI.BigInt('0xff'),
@@ -82,30 +69,9 @@ export const SOLIDITY_TYPE_MAXIMA = {
 }
 
 export const WETH9 = {
-  [ChainId.ETHEREUM]: new Token(
-    ChainId.ETHEREUM,
-    '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-    18,
-    'WETH',
-    'Wrapped Ether',
-    'https://weth.io'
-  ),
-  [ChainId.RINKEBY]: new Token(
-    ChainId.RINKEBY,
-    '0xc778417E063141139Fce010982780140Aa0cD5Ab',
-    18,
-    'WETH',
-    'Wrapped Ether',
-    'https://weth.io'
-  ),
-  [ChainId.GOERLI]: new Token(
-    ChainId.GOERLI,
-    '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
-    18,
-    'WETH',
-    'Wrapped Ether',
-    'https://weth.io'
-  ),
+  [ChainId.ETHEREUM]: new Token( ChainId.ETHEREUM, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether', 'https://weth.io' ),
+  [ChainId.RINKEBY]: new Token( ChainId.RINKEBY, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether', 'https://weth.io' ),
+  [ChainId.GOERLI]: new Token( ChainId.GOERLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether', 'https://weth.io' ),
 }
 
 export const WBNB = {
@@ -117,11 +83,8 @@ export const WBNB = {
 }
 
 export const WNATIVE: Record<number, Token> = {
-  [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM],
-  [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY],
-  [ChainId.GOERLI]: WETH9[ChainId.GOERLI],
-  [ChainId.BSC]: WBNB[ChainId.BSC],
-  [ChainId.BSC_TESTNET]: WBNB[ChainId.BSC_TESTNET],
+  [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM], [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY], [ChainId.GOERLI]: WETH9[ChainId.GOERLI],
+  [ChainId.BSC]: WBNB[ChainId.BSC], [ChainId.BSC_TESTNET]: WBNB[ChainId.BSC_TESTNET],
   [ChainId.C4EI]: WBNB[ChainId.C4EI],
   [ChainId.KLAY]: WBNB[ChainId.KLAY],
 }
