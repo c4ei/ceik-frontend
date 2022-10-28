@@ -95,3 +95,11 @@ bunny@2x.957fd943.png
 /packages/swap-sdk/src/constants.ts
 export const FACTORY_ADDRESS_KLAY = '0xd79f7D4925FAF0a0716B52ae1D3B125f9b788fBb'
 export const INIT_CODE_HASH_KLAY = '0x9900369d60e73c7ee68d54639c24bfd78796ec2e405e629fd893e679bbb80a4f'
+
+/src/config/constants/exchange.ts
+[ChainId.KLAY]: '0x747E8977721d1657c7fD266C3Ec72B98D0873a16',
+
+
+
+/src/config/constants/meta.ts
+PancakeSwap --> C4eiSwap
