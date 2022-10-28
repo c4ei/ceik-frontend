@@ -7,7 +7,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.swap.c4ei.net/contact-us',
+        href: 'https://c4ei.net',
         isHighlighted: true,
       },
       // {
@@ -48,14 +48,14 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       // },
       {
         label: t('Guides'),
-        href: 'https://docs.swap.c4ei.net/get-started',
+        href: 'https://docs.google.com/document/d/1qT76SW6ft_nKA7guj16Ty_veOo-s2vI_0KNB2OP3ugc/edit?usp=sharing',
       },
       {
         label: "use C4EI",
         href: "https://swap.c4ei.net/add?chainId=21004",
       },
       {
-        label: "MyLP(C4EI)",
+        label: "MyLP (C4EI)",
         href: "https://swap.c4ei.net/liquidity?chainId=21004",
       },
       {
@@ -63,7 +63,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: "https://swap.c4ei.net/add?chainId=8217",
       },
       {
-        label: "MyLP(KLAY)",
+        label: "MyLP (KLAY)",
         href: "https://swap.c4ei.net/liquidity?chainId=8217",
       },
     ],
@@ -73,7 +73,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/c4ei/pancakeswap',
       },
       // {
       //   label: t('Documentation'),

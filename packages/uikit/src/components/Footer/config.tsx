@@ -8,7 +8,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.swap.c4ei.net/contact-us",
+        href: "https://c4ei.net",
       },
       // {
       //   label: "Blog",
@@ -45,14 +45,14 @@ export const footerLinks: FooterLinkType[] = [
       // },
       {
         label: "Guides",
-        href: "https://docs.swap.c4ei.net/get-started",
+        href: "https://docs.google.com/document/d/1qT76SW6ft_nKA7guj16Ty_veOo-s2vI_0KNB2OP3ugc/edit?usp=sharing",
       },
       {
         label: "use C4EI",
         href: "https://swap.c4ei.net/add?chainId=21004",
       },
       {
-        label: "MyLP(C4EI)",
+        label: "MyLP (C4EI)",
         href: "https://swap.c4ei.net/liquidity?chainId=21004",
       },
       {
@@ -60,7 +60,7 @@ export const footerLinks: FooterLinkType[] = [
         href: "https://swap.c4ei.net/add?chainId=8217",
       },
       {
-        label: "MyLP(KLAY)",
+        label: "MyLP (KLAY)",
         href: "https://swap.c4ei.net/liquidity?chainId=8217",
       },
     ],
@@ -70,7 +70,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/c4ei/pancakeswap",
       },
       // {
       //   label: "Documentation",
@@ -96,7 +96,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/c4ei_net",
   },
   {
     label: "Telegram",
@@ -104,7 +104,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/pancakeswap",
+        href: "https://t.me/c4eiAirdrop",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -181,7 +181,7 @@ export const socials = [
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/c4ei/pancakeswap/",
   },
   // {
   //   label: "Discord",

@@ -75,7 +75,7 @@ const FAQ = () => {
           <FoldableText title={t('Where can I learn more about this new Pottery format?')} mt="24px">
             <Text>
               {t('Please feel free to reach out to us on')}
-              <InlineLink fontSize="14px" external href="https://t.me/pancakeswap">
+              <InlineLink fontSize="14px" external href="https://t.me/c4eiAirdrop">
                 {t('Telegram')}
               </InlineLink>
               {t('or')}
