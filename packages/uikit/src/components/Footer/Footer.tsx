@@ -89,7 +89,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
-              <CakePrice cakePriceUsd={cakePriceUsd} color="textSubtle" />
+              <CakePrice sawonPriceUsd={cakePriceUsd} color="textSubtle" />
             </Box>
             <Button
               data-theme="light"

@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 // import { useCakeBusdPrice } from 'hooks/useBUSDPrice'
-import { useC4eiAlbaPrice, useCakeBusdPrice } from 'hooks/useBUSDPrice'
+import { useC4eiSawonPrice, useCakeBusdPrice } from 'hooks/useBUSDPrice'
 
 const useGetDocumentTitlePrice = () => {
-  const albaPriceNative = useC4eiAlbaPrice()
+  const sawonPriceNative = useC4eiSawonPrice()
   useEffect(() => {
-    const albaPriceNativeString = albaPriceNative ? albaPriceNative.toFixed(2) : ''
-    document.title = `Alba - ${albaPriceNativeString}`
-  }, [albaPriceNative])
+    const sawonPriceNativeString = sawonPriceNative ? sawonPriceNative.toFixed(2) : ''
+    document.title = `Sawon - ${sawonPriceNativeString}`
+  }, [sawonPriceNative])
   // const cakePriceBusd = useCakeBusdPrice()
   // useEffect(() => {
   //   const cakePriceBusdString = cakePriceBusd ? cakePriceBusd.toFixed(2) : ''

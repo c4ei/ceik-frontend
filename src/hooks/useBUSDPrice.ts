@@ -1,6 +1,6 @@
 import { ChainId, Currency, CurrencyAmount, JSBI, Pair, Price, Token, WNATIVE, WBNB, NativeCurrency } from '@pancakeswap/sdk'
 import { FAST_INTERVAL } from 'config/constants'
-import { ALBA, BUSD, CAKE, NATIVEcOIN, USDC } from '@pancakeswap/tokens'
+import { ALBA, BUSD, CAKE, NATIVEcOIN, SAWON, USDC } from '@pancakeswap/tokens'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useMemo } from 'react'
 import useSWR from 'swr'
@@ -175,11 +175,11 @@ export const useBNBBusdPrice = ({ forceMainnet } = { forceMainnet: false }): Pri
 // 8217 export const ALBA_KLAY_LP : '0x604a309612e6CDf1C30045A4F9201D5146db2497'
 // 21004 export const ALBA_C4EI_LP : '0x05FB813418a1F7190754502Cb3085fAa968F1b70'
 
-export const useC4eiAlbaPrice = ({ forceMainnet } = { forceMainnet: false }): Price<Currency, Currency> | undefined => {
+export const useC4eiSawonPrice = ({ forceMainnet } = { forceMainnet: false }): Price<Currency, Currency> | undefined => {
   const { chainId } = useActiveWeb3React()
   const isTestnet = !forceMainnet && isChainTestnet(chainId)
-  const alba: Token = chainId===8217? ALBA[ChainId.KLAY] : chainId===21004? ALBA[ChainId.C4EI] : ALBA[ChainId.C4EI] // isTestnet ? CAKE[ChainId.BSC_TESTNET] : CAKE[ChainId.BSC]
+  const sawon: Token = chainId===8217? SAWON[ChainId.KLAY] : chainId===21004? SAWON[ChainId.C4EI] : SAWON[ChainId.C4EI] // isTestnet ? CAKE[ChainId.BSC_TESTNET] : CAKE[ChainId.BSC]
   const _coin: Token = chainId===8217? NATIVEcOIN[ChainId.KLAY] : chainId===21004? NATIVEcOIN[ChainId.C4EI] : NATIVEcOIN[ChainId.C4EI] // isTestnet ? CAKE[ChainId.BSC_TESTNET] : CAKE[ChainId.BSC]
   
-  return usePriceByPairs(alba, _coin)
+  return usePriceByPairs(sawon, _coin)
 }
