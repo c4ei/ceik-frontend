@@ -50,14 +50,14 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('CAKE makes our world go round.'),
+  headingText: t('SAWON makes our world go round.'),
   bodyText: t(
-    'CAKE token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'SAWON token is at the heart of the C4eiSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004',
-    text: t('Buy CAKE'),
+    to: '/swap?outputCurrency=0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66&chainId=21004',
+    text: t('Buy SAWON'),
     external: false,
   },
   secondaryButton: {
@@ -71,7 +71,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'bottom-right', alt: t('Small 3d pancake') },
       { src: 'top-right', alt: t('Small 3d pancake') },
-      { src: 'coin', alt: t('CAKE token') },
+      { src: 'coin', alt: t('SAWON token') },
       { src: 'top-left', alt: t('Small 3d pancake') },
     ],
   },

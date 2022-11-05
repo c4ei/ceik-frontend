@@ -151,7 +151,7 @@ export const klay: Chain = {
   blockExplorers: {
     default: {
       name: 'scope',
-      url: 'https://scope.klaytn.com/',
+      url: 'https://scope.klaytn.com',
     },
   },
   multicall: {

@@ -94,8 +94,8 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             <Button
               data-theme="light"
               as="a"
-              href="https://swap.c4ei.net/swap?outputCurrency=0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69&chainId=21004"
-              target="_blank"
+              href="https://swap.c4ei.net/swap?outputCurrency=0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66&chainId=21004"
+              // target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color="backgroundAlt" />}
             >

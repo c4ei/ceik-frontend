@@ -51,8 +51,12 @@ const config: (
       showItemsOnMobile: false,
       items: [
         {
-          label: t('Swap'),
-          href: '/swap',
+          label: t('Swap(c4ei)'),
+          href: '/swap?chainId=21004',
+        },
+        {
+          label: t('Swap(klay)'),
+          href: '/swap?chainId=8217',
         },
         // {
         //   label: t('Limit'),
@@ -61,9 +65,16 @@ const config: (
         //   image: '/images/decorations/3d-coin.png',
         // },
         {
-          label: t('Liquidity'),
+          label: t('Liquidity(c4ei)'),
           // href: '/liquidity',
-          href: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea',
+          // href: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea&chainId=21004',
+          href: '/liquidity?chainId=21004',
+        },
+        {
+          label: t('Liquidity(klay)'),
+          // href: '/liquidity',
+          // href: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea&chainId=21004',
+          href: '/liquidity?chainId=8217',
         },
         // {
         //   label: t('Perpetual'),
@@ -89,14 +100,21 @@ const config: (
       supportChainIds: SUPPORT_ONLY_BSC,
       items: [
         {
-          label: t('Farms'),
-          // href: '/farms',
+          label: t('Farms(c4ei)'),
           href: 'https://farm.c4ei.net/farms',
         },
         {
-          label: t('Pools'),
-          // href: '/pools',
+          label: t('Pools(c4ei)'),
           href: 'https://farm.c4ei.net/pools',
+          supportChainIds: SUPPORT_ONLY_BSC,
+        },
+        {
+          label: t('Farms(klay)'),
+          href: 'https://klay.c4ei.net/farms',
+        },
+        {
+          label: t('Pools(klay)'),
+          href: 'https://klay.c4ei.net/pools',
           supportChainIds: SUPPORT_ONLY_BSC,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),

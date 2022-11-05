@@ -46,7 +46,7 @@ export const ALBA = { [ChainId.C4EI]: ALBA_C4EI, [ChainId.KLAY]: ALBA_KLAY, }
 // 21004 export const ALBA_C4EI_LP : '0x05FB813418a1F7190754502Cb3085fAa968F1b70'
 
 export const SAWON_KLAY = new Token( ChainId.KLAY, '0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66', 18, 'SAWON', 'SAWON Defi', 'https://scope.klaytn.com/token/0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66?tabId=tokenTransfer',)
-export const SAWON = { [ChainId.KLAY]: ALBA_KLAY, }
+export const SAWON = new Token( ChainId.C4EI, '0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66', 18, 'SAWON', 'SAWON Defi', 'https://exp.c4ei.net/account/0x52d1ec2ed762d7fb3be336ec678569c730b87d66',)
 
 export const NATIVE_C4EI = new Token( ChainId.C4EI, '0x0000000000000000000000000000000000000000', 18, 'C4EI', 'Crypto4EI', 'https://c4ei.net/',)
 export const NATIVE_KLAY = new Token( ChainId.KLAY, '0x0000000000000000000000000000000000000000', 18, 'KLAY', 'KLAYTN', 'https://scope.klaytn.com/',)
