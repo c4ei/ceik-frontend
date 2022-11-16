@@ -117,7 +117,7 @@ export const bscTest: Chain = {
 
 export const c4ei: Chain = {
   id: 21004,
-  name: 'C4EI Chain',
+  name: 'C4EI Mainnet',
   network: 'c4ei',
   rpcUrls: {
     public: 'https://rpc.c4ei.net',
@@ -140,7 +140,7 @@ export const c4ei: Chain = {
 
 export const klay: Chain = {
   id: 8217,
-  name: 'Klay',
+  name: 'Klaytn Mainnet',
   network: 'klay',
   nativeCurrency: { name: 'klay', symbol: 'KLAY', decimals: 18 },
   rpcUrls: {
@@ -163,7 +163,7 @@ export const klay: Chain = {
 
 export const polygon: Chain = {
   id: 137,
-  name: 'polygon',
+  name: 'polygon matic',
   network: 'polygon',
   nativeCurrency: { name: 'matic', symbol: 'MATIC', decimals: 18 },
   rpcUrls: {

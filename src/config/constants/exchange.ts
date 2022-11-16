@@ -59,6 +59,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.GOERLI]: [USDC[ChainId.GOERLI], WNATIVE[ChainId.GOERLI], BUSD[ChainId.GOERLI]],
   [ChainId.BSC]: [bscTokens.busd, bscTokens.cake, bscTokens.btcb],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.POLYGON]: [polygonTokens.wbnb, polygonTokens.cake, polygonTokens.busd],
   [ChainId.C4EI]: [c4einetTokens.wbnb, c4einetTokens.cake, c4einetTokens.busd],
   [ChainId.KLAY]: [klayTokens.wbnb, klayTokens.cake, klayTokens.busd],
 }
@@ -76,6 +77,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.GOERLI]: [USDC[ChainId.GOERLI], WNATIVE[ChainId.GOERLI], BUSD[ChainId.GOERLI]],
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt, bscTokens.cake],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.POLYGON]: [polygonTokens.wbnb, polygonTokens.cake, polygonTokens.busd],
   [ChainId.C4EI]: [c4einetTokens.wbnb, c4einetTokens.cake, c4einetTokens.busd],
   [ChainId.KLAY]: [klayTokens.wbnb, klayTokens.cake, klayTokens.busd],
 }
@@ -99,9 +101,14 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     [c4einetTokens.wbnb, c4einetTokens.busd],
   ],
   [ChainId.KLAY]: [
-    [c4einetTokens.cake, c4einetTokens.busd],
-    [c4einetTokens.cake, c4einetTokens.wbnb],
+    [klayTokens.cake, klayTokens.busd],
+    [klayTokens.cake, klayTokens.wbnb],
     [klayTokens.wbnb, klayTokens.busd],
+  ],
+  [ChainId.POLYGON]: [
+    [polygonTokens.cake, polygonTokens.busd],
+    [polygonTokens.cake, polygonTokens.wbnb],
+    [polygonTokens.wbnb, polygonTokens.busd],
   ],
 }
 

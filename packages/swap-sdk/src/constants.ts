@@ -6,7 +6,7 @@ export type BigintIsh = JSBI | number | string
 
 export enum ChainId {
   ETHEREUM = 1, RINKEBY = 4, GOERLI = 5,
-  BSC = 56, BSC_TESTNET = 97, POLYGON = 107, 
+  BSC = 56, BSC_TESTNET = 97, POLYGON = 137, 
   KLAY = 8217, C4EI = 21004,
 }
 
@@ -83,6 +83,7 @@ export const WBNB = {
   [ChainId.BSC_TESTNET]: new Token(ChainId.BSC_TESTNET,'0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',18,'WBNB','Wrapped BNB','https://www.binance.org'),
   [ChainId.C4EI]: new Token(ChainId.C4EI,'0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa',18,'WBNB','Wrapped BNB','https://www.binance.org'),
   [ChainId.KLAY]: new Token(ChainId.KLAY,'0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9',18,'WBNB','WrappedKLAY','https://c4ei.net'),
+  [ChainId.POLYGON]: new Token(ChainId.POLYGON,'0x41b02ED26Da14a3CC790B861174Dd4AD02213790',18,'WBNB','WrappedKLAY','https://c4ei.net'),
 }
 
 export const WNATIVE: Record<number, Token> = {
@@ -90,6 +91,7 @@ export const WNATIVE: Record<number, Token> = {
   [ChainId.BSC]: WBNB[ChainId.BSC], [ChainId.BSC_TESTNET]: WBNB[ChainId.BSC_TESTNET],
   [ChainId.C4EI]: WBNB[ChainId.C4EI],
   [ChainId.KLAY]: WBNB[ChainId.KLAY],
+  [ChainId.POLYGON]: WBNB[ChainId.POLYGON],
 }
 
 export const NATIVE: Record<
