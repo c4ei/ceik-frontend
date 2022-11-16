@@ -107,6 +107,9 @@ PancakeSwap --> C4eiSwap
 
 
 ########## polygon - 22-11-16
+마스터쉐프 : 0x55aC08Ccc202057f3a6B5098285c9C95da3338bD
+sawon : 0x52d1ec2ed762d7fb3be336ec678569c730b87d66
+		--> mint : 2100400000000000000000 --> 2100.4
 #############################################################
 contract address : 0xA535eb8C8E0DdeF9Bc19fbE3614c44211D8142d8
 INIT_CODE_PAIR_HASH : b30ab953d5193c9c487c51bdddce9b966ffc0e61e169ce33bb36dda5d42da741
@@ -133,3 +136,14 @@ Arg [1] : _WETH (address): (WBNB :) 0x41b02ED26Da14a3CC790B861174Dd4AD02213790
 line 284 hex'b30ab953d5193c9c487c51bdddce9b966ffc0e61e169ce33bb36dda5d42da741' // init code hash
 
 CAKE 137: "0x9a976661AcBa62E821D5562579d6a1B0324dddf2", // (22-11-16)
+
+###########################################################################
+(1) 네트워크 이름 : Polygon Mainnet
+(2) 새 RPC URL : https://polygon-rpc.com/
+(3) 체인 ID : 137
+(4) 통화 기호 (옵션) : MATIC
+(5) 블록 탐색기 URL (옵션) : https://polygonscan.com
+###########################################################################
+
+Multicall3 
+137: '0xa4Aaa1A901Ab404aa1D2EeeE9FC328243e79b487',

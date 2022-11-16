@@ -6,7 +6,7 @@ import { BUSD, CAKE } from '@pancakeswap/tokens'
 import { farmFetcher } from './helper'
 import { FarmKV, FarmResult } from './kv'
 import { updateLPsAPR } from './lpApr'
-import { bscProvider, bscTestnetProvider, c4eiProvider, klayProvider } from './provider'
+import { bscProvider, bscTestnetProvider, c4eiProvider, klayProvider, polygonProvider } from './provider'
 
 const pairAbi = [
   {
@@ -55,11 +55,16 @@ const cakeBusdPairMap = {
     tokenA: CAKE[ChainId.KLAY],
     tokenB: BUSD[ChainId.KLAY],
   },
+  [ChainId.POLYGON]: {
+    address: Pair.getAddress(CAKE[ChainId.POLYGON], BUSD[ChainId.POLYGON]),
+    tokenA: CAKE[ChainId.POLYGON],
+    tokenB: BUSD[ChainId.POLYGON],
+  },
 }
 
 const getCakePrice = async (isTestnet: boolean) => {
-  const pairConfig = cakeBusdPairMap[ ChainId==8217? ChainId.KLAY : ChainId==21004? ChainId.C4EI : isTestnet ? ChainId.BSC_TESTNET : ChainId.BSC]
-  const pairContract = new Contract(pairConfig.address, pairAbi, ChainId==8217? ChainId.KLAY : ChainId==21004? c4eiProvider : isTestnet ? bscTestnetProvider : bscProvider)
+  const pairConfig = cakeBusdPairMap[ ChainId==137? ChainId.POLYGON :ChainId==8217? ChainId.KLAY : ChainId==21004? ChainId.C4EI : isTestnet ? ChainId.BSC_TESTNET : ChainId.BSC]
+  const pairContract = new Contract(pairConfig.address, pairAbi, ChainId==137? ChainId.POLYGON :ChainId==8217? ChainId.KLAY : ChainId==21004? c4eiProvider : isTestnet ? bscTestnetProvider : bscProvider)
   const reserves = await pairContract.getReserves()
   const { reserve0, reserve1 } = reserves
   const { tokenA, tokenB } = pairConfig

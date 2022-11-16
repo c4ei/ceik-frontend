@@ -161,4 +161,25 @@ export const klay: Chain = {
 
 }
 
+export const polygon: Chain = {
+  id: 137,
+  name: 'polygon',
+  network: 'polygon',
+  nativeCurrency: { name: 'matic', symbol: 'MATIC', decimals: 18 },
+  rpcUrls: {
+    default: 'https://polygon-rpc.com',
+  },
+  blockExplorers: {
+    default: {
+      name: 'scope',
+      url: 'https://polygonscan.com',
+    },
+  },
+  multicall: {
+    address: '0xa4Aaa1A901Ab404aa1D2EeeE9FC328243e79b487',
+    blockCreated: 35669300,
+  },
+
+}
+
 export { rinkeby, mainnet, goerli }

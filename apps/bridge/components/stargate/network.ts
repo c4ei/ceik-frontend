@@ -13,8 +13,13 @@ const stargateNetowrk = [
     chainId: 102,
     chain: bsc,
   },
+  // {
+  //   chainId: 109,
+  //   name: 'Matic',
+  //   chain: polygon,
+  // },
   {
-    chainId: 109,
+    chainId: 137,
     name: 'Matic',
     chain: polygon,
   },

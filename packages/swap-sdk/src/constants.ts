@@ -7,8 +7,7 @@ export type BigintIsh = JSBI | number | string
 export enum ChainId {
   ETHEREUM = 1, RINKEBY = 4, GOERLI = 5,
   BSC = 56, BSC_TESTNET = 97, POLYGON = 107, 
-  KLAY = 8217,
-  C4EI = 21004,
+  KLAY = 8217, C4EI = 21004,
 }
 
 export enum TradeType { EXACT_INPUT, EXACT_OUTPUT, }
