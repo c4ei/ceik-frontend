@@ -106,6 +106,7 @@ export const NATIVE: Record<
   [ChainId.GOERLI]: { name: 'Goerli Ether', symbol: 'GOR', decimals: 18 },
   [ChainId.BSC]: { name: 'Binance Chain Native Token',symbol: 'BNB',decimals: 18,},
   [ChainId.BSC_TESTNET]: {name: 'Binance Chain Native Token',symbol: 'tBNB',decimals: 18,},
+  [ChainId.POLYGON]: { name: 'POLYGON Native Token',symbol: 'MATIC',decimals: 18,},
   [ChainId.C4EI]: { name: 'C4EI Native Token',symbol: 'C4EI',decimals: 18,},
   [ChainId.KLAY]: { name: 'KLAY Native Token',symbol: 'KLAY',decimals: 18,},
 }

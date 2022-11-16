@@ -114,3 +114,22 @@ INIT_CODE_PAIR_HASH : b30ab953d5193c9c487c51bdddce9b966ffc0e61e169ce33bb36dda5d4
 Arg [0] : _feeToSetter (address): 0xdd1bF770ac033aB1976617CdDEDdF52CB660Cd21
 
 export const FACTORY_ADDRESS_POLYGON = '0xA535eb8C8E0DdeF9Bc19fbE3614c44211D8142d8'
+
+WBNB : 
+#############################################################
+contract address : 0x41b02ED26Da14a3CC790B861174Dd4AD02213790  (22-11-16) Polygon
+#############################################################
+BUSDImplementation
+#############################################################
+contract address : 0x2FD2987174E7172a31715cca75295Cbc11Bbb7a8  (22-11-16) Polygon
+#############################################################
+
+22-11-16 Polygon PancakeRouter
+contract address : 0x60dFDE0961435C6aAA9AB3414c60CCc5DdaF846f
+#############################################################
+Arg [0] : _factory (address): 0xA535eb8C8E0DdeF9Bc19fbE3614c44211D8142d8
+Arg [1] : _WETH (address): (WBNB :) 0x41b02ED26Da14a3CC790B861174Dd4AD02213790
+#############################################################
+line 284 hex'b30ab953d5193c9c487c51bdddce9b966ffc0e61e169ce33bb36dda5d42da741' // init code hash
+
+CAKE 137: "0x9a976661AcBa62E821D5562579d6a1B0324dddf2", // (22-11-16)
