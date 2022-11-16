@@ -8,6 +8,14 @@ export const c4eiProvider = new StaticJsonRpcProvider(
   21004,
 )
 
+export const polygonProvider = new StaticJsonRpcProvider(
+  {
+    url: 'https://rpc-mainnet.matic.quiknode.pro',
+    skipFetchSetup: true,
+  },
+  137,
+)
+
 export const klayProvider = new StaticJsonRpcProvider(
   {
     url: 'https://public-node-api.klaytnapi.com/v1/cypress',

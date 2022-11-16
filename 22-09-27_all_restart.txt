@@ -4,7 +4,7 @@ all restart !!!
 /packages/wagmi/chains/chains.ts
 bsc --> c4ei
 replace all
-pancakeswap.finance --> ceik.c4ei.net
+pancakeswap.finance --> swap.c4ei.net
 
 2022-09-27 1차목표 bsc 를 c4ei 로 변경 반영
 
@@ -103,3 +103,14 @@ export const INIT_CODE_HASH_KLAY = '0x9900369d60e73c7ee68d54639c24bfd78796ec2e40
 
 /src/config/constants/meta.ts
 PancakeSwap --> C4eiSwap
+
+
+
+########## polygon - 22-11-16
+#############################################################
+contract address : 0xA535eb8C8E0DdeF9Bc19fbE3614c44211D8142d8
+INIT_CODE_PAIR_HASH : b30ab953d5193c9c487c51bdddce9b966ffc0e61e169ce33bb36dda5d42da741
+#############################################################
+Arg [0] : _feeToSetter (address): 0xdd1bF770ac033aB1976617CdDEDdF52CB660Cd21
+
+export const FACTORY_ADDRESS_POLYGON = '0xA535eb8C8E0DdeF9Bc19fbE3614c44211D8142d8'
