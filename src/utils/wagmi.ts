@@ -8,6 +8,7 @@ import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
 import { SafeConnector } from '@gnosis.pm/safe-apps-wagmi'
+import { polygon } from 'wagmi/chains'
 
 const CHAINS = [
   // bsc,
@@ -18,6 +19,7 @@ const CHAINS = [
   // goerli,
   c4ei,
   klay,
+  polygon,
 ]
 
 const getNodeRealUrl = (networkName: string) => {
@@ -41,6 +43,9 @@ const getNodeRealUrl = (networkName: string) => {
       break
     case 'c4ei':
         host = `rpc.c4ei.net`
+      break
+    case 'polygon':
+        host = `rpc-mainnet.matic.quiknode.pro`
       break
     default:
       host = null

@@ -10,7 +10,7 @@ export const c4eiProvider = new StaticJsonRpcProvider(
 
 export const polygonProvider = new StaticJsonRpcProvider(
   {
-    url: 'https://polygon-rpc.com', // https://rpc-mainnet.matic.quiknode.pro
+    url: 'https://rpc-mainnet.matic.quiknode.pro', // https://polygon-rpc.com
     skipFetchSetup: true,
   },
   137,
