@@ -63,6 +63,14 @@ export const footerLinks: FooterLinkType[] = [
         label: "MyLP (KLAY)",
         href: "https://swap.c4ei.net/liquidity?chainId=8217",
       },
+      {
+        label: "use polygon",
+        href: "https://swap.c4ei.net/add?chainId=137",
+      },
+      {
+        label: "MyLP (polygon)",
+        href: "https://swap.c4ei.net/liquidity?chainId=137",
+      },
     ],
   },
   {

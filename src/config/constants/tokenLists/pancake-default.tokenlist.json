@@ -27,6 +27,14 @@
       "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0x900b38cf92A9b7FfecF069519F75905c2E29cd4F",
+      "chainId": 137,
+      "decimals": 18,
+      "logoURI": "https://swap.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
       "name": "Wrapped BNB",
       "symbol": "WBNB",
       "address": "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",

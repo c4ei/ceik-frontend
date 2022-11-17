@@ -62,7 +62,7 @@ const tokens = {
     address: {
       56: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       97: "",
-      135: "0x2FD2987174E7172a31715cca75295Cbc11Bbb7a8", // Polygon
+      135: "0x900b38cf92A9b7FfecF069519F75905c2E29cd4F", // Polygon
       8217: "0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C", // (22-10-10)
       21004: "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
     },

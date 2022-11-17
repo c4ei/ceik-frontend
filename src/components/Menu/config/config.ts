@@ -58,6 +58,10 @@ const config: (
           label: t('Swap(klay)'),
           href: '/swap?chainId=8217',
         },
+        {
+          label: t('Swap(polygon)'),
+          href: '/swap?chainId=137',
+        },
         // {
         //   label: t('Limit'),
         //   href: '/limit-orders',
@@ -75,6 +79,12 @@ const config: (
           // href: '/liquidity',
           // href: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea&chainId=21004',
           href: '/liquidity?chainId=8217',
+        },
+        {
+          label: t('Liquidity(polygon)'),
+          // href: '/liquidity',
+          // href: '/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea&chainId=21004',
+          href: '/liquidity?chainId=137',
         },
         // {
         //   label: t('Perpetual'),

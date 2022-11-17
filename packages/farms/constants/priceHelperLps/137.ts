@@ -5,9 +5,9 @@ import { SerializedFarmConfig } from '@pancakeswap/farms'
 const priceHelperLps: SerializedFarmConfig[] = [
   {
     // pid: null,
-    pid: 3,
+    pid: 0,
     lpSymbol: 'CAKE-BUSD LP',
-    lpAddress: '0xcbF93E0Aa7ea4fA2cF90627E473857cFF4CC8B9D',
+    lpAddress: '0x4f4d09C4F495A901F20581b6e4b0259FDdbdFCc7',
     quoteToken: polygonTokens.cake,
     token: polygonTokens.busd,
   },

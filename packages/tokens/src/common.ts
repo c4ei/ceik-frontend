@@ -16,7 +16,7 @@ export const USDT_BSC = new Token(ChainId.BSC,'0x55d398326f99059fF77548524699902
 export const USDT_ETH = new Token(ChainId.ETHEREUM,'0xdAC17F958D2ee523a2206206994597C13D831ec7',6,'USDT','Tether USD','https://tether.to/',)
 
 export const BUSD_BSC = new Token(ChainId.BSC,'0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',18,'BUSD','Binance USD','https://www.paxos.com/busd/',)
-export const BUSD_POLYGON = new Token(ChainId.C4EI,'0x2FD2987174E7172a31715cca75295Cbc11Bbb7a8', 18,'BUSD','C4EI USD','https://c4ei.net/',)
+export const BUSD_POLYGON = new Token(ChainId.POLYGON,'0x900b38cf92A9b7FfecF069519F75905c2E29cd4F', 18,'BUSD','C4EI USD','https://c4ei.net/',)
 export const BUSD_C4EI = new Token(ChainId.C4EI,'0xBa9303709c2Ad10b62a598e18e15b1E42921edea', 18,'BUSD','C4EI USD','https://c4ei.net/',)
 export const BUSD_KLAY = new Token(ChainId.KLAY,'0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C', 18,'BUSD','CEIK USD','https://c4ei.net/',)
 export const BUSD_TESTNET = new Token(ChainId.BSC_TESTNET,'0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814',18,'BUSD','Binance USD','https://www.paxos.com/busd/',)
