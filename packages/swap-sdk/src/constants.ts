@@ -81,9 +81,9 @@ export const WBNB = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM,'0x418D75f65a02b3D53B2418FB8E1fe493759c7605',18,'WBNB','Wrapped BNB','https://www.binance.org'  ),
   [ChainId.BSC]: new Token(ChainId.BSC,'0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',18,'WBNB','Wrapped BNB','https://www.binance.org'),
   [ChainId.BSC_TESTNET]: new Token(ChainId.BSC_TESTNET,'0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',18,'WBNB','Wrapped BNB','https://www.binance.org'),
-  [ChainId.C4EI]: new Token(ChainId.C4EI,'0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa',18,'WBNB','Wrapped BNB','https://www.binance.org'),
-  [ChainId.KLAY]: new Token(ChainId.KLAY,'0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9',18,'WBNB','WrappedKLAY','https://c4ei.net'),
-  [ChainId.POLYGON]: new Token(ChainId.POLYGON,'0x41b02ED26Da14a3CC790B861174Dd4AD02213790',18,'WBNB','WrappedKLAY','https://c4ei.net'),
+  [ChainId.C4EI]: new Token(ChainId.C4EI,'0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa',18,'WC4EI','Wrapped BNB','https://www.binance.org'),
+  [ChainId.KLAY]: new Token(ChainId.KLAY,'0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9',18,'WKLAY','WrappedKLAY','https://c4ei.net'),
+  [ChainId.POLYGON]: new Token(ChainId.POLYGON,'0x1Ae6B1fdDE78CB36dc9BF1D4D0eCDC81539fD369',18,'WMATIC','WrapMATIC','https://c4ei.net'),
 }
 
 export const WNATIVE: Record<number, Token> = {

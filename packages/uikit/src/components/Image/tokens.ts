@@ -29,7 +29,7 @@ const tokens = {
     address: {
       56: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       97: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
-      135: "0x41b02ED26Da14a3CC790B861174Dd4AD02213790", // Polygon
+      137: "0x1Ae6B1fdDE78CB36dc9BF1D4D0eCDC81539fD369", // Polygon
       8217: "0xAb57000f39107eDE71441D54Aa53A22bdCE9F4B9", // (22-10-10)
       21004: "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
     },
@@ -62,7 +62,7 @@ const tokens = {
     address: {
       56: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       97: "",
-      135: "0x900b38cf92A9b7FfecF069519F75905c2E29cd4F", // Polygon
+      137: "0x900b38cf92A9b7FfecF069519F75905c2E29cd4F", // Polygon
       8217: "0x8Eed4BFE1Bba9ee60c3E4A6AFD2bDD8102e8590C", // (22-10-10)
       21004: "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
     },
